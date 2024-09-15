@@ -21,12 +21,19 @@ Data used in this project were collected mainly from yahoo finance and governmen
 Major 7 indices  were considered in this study in three different regions such  as US, Europe and Asia. We use python API which will pull  historical data from yahoo finance (Indices data) and world  bank (wbdata for economic indicators) and store it in google  cloud for model development.
 
  Some of major indices were considers such as:
+ 
  • SP 500 (Standard and Poor’s 500)– USA: Represents 500  of the largest publicly traded companies in the United States.
+ 
  • DowJones Industrial Average (DJIA)– USA: Includes 30  major, large-cap companies across various industries.
+ 
  • NASDAQComposite– USA: Encompasses around 3,000  companies listed on the NASDAQ Stock Market.
+ 
  • FTSE 100 (Financial Times Stock Exchange 100 Index) UK: Tracks the 100 largest companies listed on the London  Stock Exchange.
+ 
  • Nikkei 225– Japan: Consists of 225 blue-chip companies listed on the Tokyo Stock Exchange.
+ 
  • DAX(Deutscher Aktienindex)– Germany: It tracks 40 of the largest and most liquid companies on the Frankfurt Stock  Exchange.
+ 
  • Sensex (Sensitive Index)– India: Sensex tracks 30 well established and financially sound companies listed on the  Bombay Stock Exchange.
 
 
