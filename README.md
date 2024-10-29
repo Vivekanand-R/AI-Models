@@ -1,6 +1,6 @@
 # Probabilistic-Graphical-Models
 
-1. Stock Analysis:
+1. Stock Data Analysis:
    
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
