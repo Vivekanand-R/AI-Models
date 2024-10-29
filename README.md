@@ -1,6 +1,7 @@
 # Probabilistic-Graphical-Models
 
 1. Stock Analysis:
+   
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
  Machine Learning (ML) approach, leading to publicly available stock indices data
@@ -43,8 +44,10 @@ Major 7 indices  were considered in this study in three different regions such  
 
 
 2. Weather Data Analysis:
-   For major cities. To be added. 
 
+City List: Creat a list of 20 major cities with their latitude and longitude coordinates.
+Loop through Cities: The for loop goes through each city and calls get_weather_open_meteo, passing the latitude, longitude, and city name. 
+Prediction: Time series foundational models would be utilized.
  
 
 
