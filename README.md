@@ -1,5 +1,7 @@
 # Probabilistic-Graphical-Models
 
+1. Stock Analysis:
+
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
  Machine Learning (ML) approach, leading to publicly available stock indices data
@@ -39,6 +41,10 @@ Major 7 indices  were considered in this study in three different regions such  
 
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
+
+
+2. Weather Data Analysis:
+   For major cities. To be added. 
 
  
 
