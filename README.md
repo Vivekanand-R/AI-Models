@@ -1,6 +1,7 @@
 # Probabilistic-Graphical-Models
 
-1. Stock Analysis: Numerous large-scale projects and prominent financial institutions focus
+1. Stock Analysis:
+Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
  Machine Learning (ML) approach, leading to publicly available stock indices data
  sets. In this report, we will model, integrate the financial market movements using
