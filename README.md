@@ -39,6 +39,16 @@ Major 7 indices  were considered in this study in three different regions such  
  • Sensex (Sensitive Index)– India: Sensex tracks 30 well established and financially sound companies listed on the  Bombay Stock Exchange.
 
 
+** Model Approach:**
+1. Data Collection, (Yahoo finance for educational and exploratory purpose)
+2. Data Preprocessing,
+3. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
+4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
+5. Evaluation Metrics (Mean Square Error, etc)
+6. Results Interpretation And Visualations
+7. Optionally, business analytics to understand different varities of sectors and revenue models.
+
+
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
@@ -50,6 +60,16 @@ City List: Creat a list of 20 major cities with their latitude and longitude coo
 Loop through Cities: The for loop goes through each city and calls get_weather_open_meteo, passing the latitude, longitude, and city name. 
 
 Prediction: Time series foundational models would be utilized.
+
+** Model Approach:**
+1. Data Collection, (Open Source Weather Platforms),
+2. Data Preprocessing,
+3. Feature Engineering, (Functions to create different variables like humitity, wind speed etc.,)
+4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged),
+5. Evaluation Metrics (Mean Square Error, etc),
+6. Results Interpretation And visualization, and
+7. Optionally, maps will be implemented for better visualization.
+
  
 
 
