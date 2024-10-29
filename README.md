@@ -55,9 +55,9 @@ Major 7 indices  were considered in this study in three different regions such  
 
 **Model 2: Weather Data Analysis:**
 
-City List: Creat a list of 20 major cities with their latitude and longitude coordinates.
+City List: Created a list of 20 major cities with their latitude and longitude coordinates.
 
-Loop through Cities: The for loop goes through each city and calls get_weather_open_meteo, passing the latitude, longitude, and city name. 
+Loop through Cities: The For loop goes through each city and calls get_weather_open_meteo, passing the latitude, longitude, and city name. 
 
 Prediction: Time series foundational models would be utilized.
 
@@ -68,7 +68,7 @@ Prediction: Time series foundational models would be utilized.
 4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged),
 5. Evaluation Metrics (Mean Square Error, etc),
 6. Results Interpretation And visualization, and
-7. Optionally, maps will be implemented for better visualization.
+7. Optionally, flat maps will be implemented for better visualization.
 
  
 
