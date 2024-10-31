@@ -65,7 +65,7 @@ Prediction: Time series foundational models would be utilized.
 3. Feature Engineering, (Functions to create different variables like humitity, wind speed etc.,)
 4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged),
 5. Evaluation Metrics (Mean Square Error, etc),
-6. Results Interpretation And visualization, and
+6. Results Interpretation, and
 7. Optionally, flat maps will be implemented for better visualization.
 
  
