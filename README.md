@@ -40,7 +40,7 @@ Major 7 indices  were considered in this study in three different regions such  
 
 
 ** Model Approach:**
-1. Data Collection, (Yahoo finance for educational and exploratory purpose)
+1. Data Collection, (Yahoo finance for exploratory purpose)
 2. Data Preprocessing,
 3. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
 4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
