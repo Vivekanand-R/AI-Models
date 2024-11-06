@@ -50,7 +50,7 @@ Major 7 indices  were considered in this study in three different regions such  
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
-Example Below: For basic conceptual example, refer RSI dashboard which was developed in 2017 initially. Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
+For basic conceptual example, refer RSI dashboard which I've developed in 2017 initially. Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
 **Model 2: Weather Data Analysis:**
 
