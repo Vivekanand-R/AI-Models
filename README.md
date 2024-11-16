@@ -50,7 +50,9 @@ Major 7 indices  were considered in this study in three different regions such  
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
-For basic conceptual example, refer RSI dashboard which I've developed in 2017 initially. Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
+For basic conceptual example, please refer below RSI dashboard: 
+
+Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
 **Model 2: Weather Data Analysis:**
 
@@ -70,13 +72,9 @@ Prediction: Time series foundational models would be utilized.
 7. Optionally, flat maps will be implemented for better visualization.
 
 
-
-List of Time Series Models:
-![image](https://github.com/user-attachments/assets/aab1d7af-75a4-4861-a38d-77ee9ffc1e50)
-
+**List of Time Series Models:**
 
 ![image](https://github.com/user-attachments/assets/86fad937-14d3-4e7b-b638-4df92fb99aee)
-
 
 Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
 
