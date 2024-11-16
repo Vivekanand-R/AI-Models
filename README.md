@@ -71,6 +71,20 @@ Prediction: Time series foundational models would be utilized.
 
 
 
+List of Time Series Models:
+![image](https://github.com/user-attachments/assets/aab1d7af-75a4-4861-a38d-77ee9ffc1e50)
+
+Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
+
+Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
+
+Complex patterns or long sequences: LSTM, GRU, Transformers.
+
+Uncertainty handling: Gaussian Processes, Kalman Filters.
+
+Hybrid models: ARIMA + Neural Networks or DeepAR for advanced forecasting.
+
+
 
 
  
