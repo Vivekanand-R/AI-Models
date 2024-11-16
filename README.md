@@ -74,6 +74,10 @@ Prediction: Time series foundational models would be utilized.
 List of Time Series Models:
 ![image](https://github.com/user-attachments/assets/aab1d7af-75a4-4861-a38d-77ee9ffc1e50)
 
+
+![image](https://github.com/user-attachments/assets/86fad937-14d3-4e7b-b638-4df92fb99aee)
+
+
 Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
 
 Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
