@@ -18,11 +18,14 @@ Let's get into the topic of AI-Model's Basics:
 A collection of foundational model demos showcasing basic functionality and core concepts in AI.
 
 # Computer Vision:
+
 1. Basic Object detection using Yolo5, Deep Lab Segmentation and Segformer model
-2. Error Calculations
+   
+3. Vision Transformers Foundational Model
 
 
 **Latest Computer Vision Models:**
+
 CNNs: Foundational for image tasks, excels in classification and object detection. (Developed by Yann LeCun and others, 1980s-1990s)
 
 ViT: Uses transformer architecture for images, capturing long-range dependencies effectively. (Google Research, 2020)
@@ -55,15 +58,21 @@ DETR: Simplifies detection pipeline using transformers, making object detection 
 
 ---------------------------------------
 Explanation of Activation Functions:
+
 Sigmoid: Range [0, 1], used in binary classification.
+
 Tanh: Range [-1, 1], zero-centered.
+
 ReLU: Range [0, ∞), popular for hidden layers.
+
 Leaky ReLU: Range (-∞, ∞), small gradient for negatives.
+
 Softmax: Range [0, 1] for multi-class probabilities.
 
 ----------------------------------------
 
-Basic Concepts:
+**Basic Concepts:**
+
 **Activation Function:** Adds non-linearity to neurons, allowing the model to learn complex patterns in data.
 
 **Epoch:** A full cycle through the entire training dataset during the training of a neural network.
@@ -94,8 +103,7 @@ Basic Concepts:
 
 **Batch Size:** Number of samples processed before model updates weights, balancing speed and memory usage.
 
-Ref: openai.com (for content review and fact checks)
-
+--------------------------------------------
 **Other Time Series Models:**
 
 **Model 1: Stock Data Analysis**   
