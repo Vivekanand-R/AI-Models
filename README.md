@@ -1,4 +1,102 @@
-# Probabilistic-Graphical-Models
+**List of Time Series Models:**
+				
+![image](https://github.com/user-attachments/assets/ab1386a7-c571-43ab-aa98-3ed0905c4d73)
+
+Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
+
+Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
+
+Complex patterns or long sequences: LSTM, GRU, Transformers.
+
+Uncertainty handling: Gaussian Processes, Kalman Filters.
+
+Hybrid models: ARIMA + Neural Networks or DeepAR for advanced forecasting.
+
+--------------------------------------
+Let's get into the topic of AI-Model's Basics:
+
+A collection of foundational model demos showcasing basic functionality and core concepts in AI.
+
+# Computer Vision:
+1. Basic Object detection using Yolo5, Deep Lab Segmentation and Segformer model
+2. Error Calculations
+
+
+**Latest Computer Vision Models:**
+CNNs: Foundational for image tasks, excels in classification and object detection. (Developed by Yann LeCun and others, 1980s-1990s)
+
+ViT: Uses transformer architecture for images, capturing long-range dependencies effectively. (Google Research, 2020)
+
+YOLO: Real-time object detection, predicts bounding boxes from full images instantly. (Joseph Redmon et al., 2016)
+
+ResNet: Deep networks with residual learning, solving degradation issues in training. (Microsoft Research, 2015)
+
+Mask R-CNN: Adds segmentation masks to object detection for detailed object delineation. (Facebook AI Research, 2017)
+
+DINOv2: Self-supervised transformer, learns from unlabeled data for versatile applications. (Meta AI, 2023)
+
+SAM: Flexible segmentation model, handles diverse segmentation tasks with various prompts. (Meta AI, 2023)
+
+Florence: Foundation model integrating visual-language data, versatile across multiple tasks. (Microsoft, 2021)
+
+CLIP: Learns image-text relationships, enabling zero-shot classification through descriptions. (OpenAI, 2021)
+
+DETR: Simplifies detection pipeline using transformers, making object detection more efficient. (Facebook AI Research, 2020)
+
+
+-----------------------------------------
+# LSTM:
+1. Time series analysis
+2. MSE Square Error
+
+----------------------------------------
+
+# Autoencoder model basics
+
+---------------------------------------
+Explanation of Activation Functions:
+Sigmoid: Range [0, 1], used in binary classification.
+Tanh: Range [-1, 1], zero-centered.
+ReLU: Range [0, ∞), popular for hidden layers.
+Leaky ReLU: Range (-∞, ∞), small gradient for negatives.
+Softmax: Range [0, 1] for multi-class probabilities.
+
+----------------------------------------
+
+Basic Concepts:
+**Activation Function:** Adds non-linearity to neurons, allowing the model to learn complex patterns in data.
+
+**Epoch:** A full cycle through the entire training dataset during the training of a neural network.
+
+**Neuron:** A single unit in a neural network layer that processes input and applies activation.
+
+**Hidden Layer:** Layers between input and output that capture intermediate features and patterns in the data.
+
+**Loss Function:** Measures model prediction error; optimization aims to minimize this value for better accuracy.
+
+**Gradient:** Derivative of the loss with respect to weights, guiding weight adjustments during optimization.
+
+**Backpropagation:** Algorithm for computing gradients, enabling efficient weight updates in neural network training.
+
+**Learning Rate:** A factor that scales the weight updates, controlling training speed and stability.
+
+**Overfitting:** When a model learns training data too well, causing poor performance on unseen data.
+
+**Validation Data:** Separate data used to evaluate model performance during training, helping prevent overfitting.
+
+**Flattening:** Reshapes multi-dimensional data (e.g., images) into a 1D vector, making it suitable for dense layers.
+
+**Dense Layer:** Fully connected layer in a neural network where each neuron connects to every neuron in the previous layer.
+
+**Softmax:** Activation function in output layer for multi-class classification, turning logits into probabilities.
+
+**ReLU (Rectified Linear Unit):** Activation that outputs the input if positive, otherwise zero; combats vanishing gradients.
+
+**Batch Size:** Number of samples processed before model updates weights, balancing speed and memory usage.
+
+Ref: openai.com (for content review and fact checks)
+
+**Other Time Series Models:**
 
 **Model 1: Stock Data Analysis**   
 
@@ -71,20 +169,6 @@ Prediction: Time series foundational models would be utilized.
 6. Results Interpretation, and
 7. Optionally, flat maps will be implemented for better visualization.
 
-
-**List of Time Series Models:**
-
-![image](https://github.com/user-attachments/assets/86fad937-14d3-4e7b-b638-4df92fb99aee)
-
-Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
-
-Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
-
-Complex patterns or long sequences: LSTM, GRU, Transformers.
-
-Uncertainty handling: Gaussian Processes, Kalman Filters.
-
-Hybrid models: ARIMA + Neural Networks or DeepAR for advanced forecasting.
 
 
 
