@@ -71,7 +71,7 @@ Softmax: Range [0, 1] for multi-class probabilities.
 
 ----------------------------------------
 
-**Basic Concepts:**
+**Terminologies:**
 
 **Activation Function:** Adds non-linearity to neurons, allowing the model to learn complex patterns in data.
 
