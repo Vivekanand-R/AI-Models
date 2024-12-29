@@ -13,8 +13,6 @@ Uncertainty handling: Gaussian Processes, Kalman Filters.
 Hybrid models: ARIMA + Neural Networks or DeepAR for advanced forecasting.
 
 --------------------------------------
-Let's get into the topic of AI-Model's Basics:
-
 A collection of foundational model working showcasing basic functionality and core concepts in AI.
 
 # Computer Vision:
