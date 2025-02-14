@@ -92,9 +92,8 @@ Softmax: Range [0, 1] for multi-class probabilities.
 **Batch Size:** Number of samples processed before model updates weights, balancing speed and memory usage.
 
 --------------------------------------------
-**Other Time Series Models:**
 
-**Model 1: Stock Data Analysis**   
+**Case Study 1: Stock Data Analysis**   
 
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
@@ -148,7 +147,7 @@ For basic conceptual example, please refer below RSI dashboard:
 
 Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
-**Model 2: Weather Data Analysis:**
+**Case Study 2: Weather Data Analysis:**
 
 City List: Created a list of 20 major cities with their latitude and longitude coordinates.
 
