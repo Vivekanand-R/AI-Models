@@ -12,10 +12,11 @@ Uncertainty handling: Gaussian Processes, Kalman Filters.
 
 Hybrid models: ARIMA + Neural Networks or DeepAR for advanced forecasting.
 
---------------------------------------
+--------------
+
 A collection of foundational model working showcasing basic functionality and core concepts in AI.
 
-# Computer Vision:
+*Computer Vision:
 
 1. Basic Object detection using Yolo5, Deep Lab Segmentation and Segformer model
    
@@ -43,7 +44,6 @@ Florence: Foundation model integrating visual-language data, versatile across mu
 CLIP: Learns image-text relationships, enabling zero-shot classification through descriptions. (OpenAI, 2021)
 
 DETR: Simplifies detection pipeline using transformers, making object detection more efficient. (Facebook AI Research, 2020)
-
 
 
 Activation Functions:
