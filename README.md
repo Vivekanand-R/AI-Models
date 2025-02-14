@@ -45,17 +45,8 @@ CLIP: Learns image-text relationships, enabling zero-shot classification through
 DETR: Simplifies detection pipeline using transformers, making object detection more efficient. (Facebook AI Research, 2020)
 
 
------------------------------------------
-# LSTM:
-1. Time series analysis
-2. MSE Square Error
 
-----------------------------------------
-
-# Autoencoder model basics
-
----------------------------------------
-Explanation of Activation Functions:
+Activation Functions:
 
 Sigmoid: Range [0, 1], used in binary classification.
 
@@ -69,7 +60,6 @@ Softmax: Range [0, 1] for multi-class probabilities.
 
 ----------------------------------------
 
-**Terminologies:**
 
 **Activation Function:** Adds non-linearity to neurons, allowing the model to learn complex patterns in data.
 
