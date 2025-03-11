@@ -158,11 +158,13 @@ Prediction: Time series foundational models would be utilized.
 ** Model Approach:**
 1. Data Collection, (Open Source Weather Platforms),
 2. Data Preprocessing,
-3. Feature Engineering, (Functions to create different variables like humitity, wind speed etc.,)
-4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged),
-5. Evaluation Metrics (Mean Square Error, etc),
-6. Results Interpretation, and
-7. Optionally, flat maps will be implemented for better visualization.
+   	Missing Data Handling: We can start with simple averageing, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferencial statistics includes Probability & Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
+        Normalization and standardizations.
+4. Feature Engineering, (Functions to create different variables like humitity, wind speed etc.,)
+5. Model Selection (Time series models like ARIMA, RNN and LSTM can be leveraged),
+6. Evaluation Metrics (Mean Square Error, etc),
+7. Results Interpretation, and
+8. Optionally, flat maps will be implemented for better visualization.
 
 
 
