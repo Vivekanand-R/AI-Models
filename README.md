@@ -162,23 +162,18 @@ Prediction: Time series foundational models would be utilized.
 	B. AirVisual API (CO2, PM2.5, Air Quality Index) → https://www.iqair.com/
 	C. SmartThings API (IoT device integration) → https://smartthings.developer.samsung.com/
 
-**Sample Datasets:**
-![image](https://github.com/user-attachments/assets/d3494bd9-25ac-4313-9f49-e401c4e53019)
 
-![image](https://github.com/user-attachments/assets/1e71df19-6d15-49c0-bcf1-1b30c06f4bee)
-
-
-3. Data Preprocessing
+2. Data Preprocessing
    
    A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
    
    B. Normalization and standardizations.(Min-Max Scalling, z-Scoring etc.,)
    
-4. Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
-5. Model Selection (Time series models like ARIMA, RNN and LSTM can be leveraged),
-6. Evaluation Metrics (Mean Square Error, etc),
-7. Results Interpretation, and
-8. Optionally, flat maps will be implemented for better visualization.
+3. Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
+4. Model Selection (Time series models like ARIMA, RNN and LSTM can be leveraged),
+5. Evaluation Metrics (Mean Square Error, etc),
+6. Results Interpretation, and
+7. Optionally, flat maps will be implemented for better visualization.
 
 
 
