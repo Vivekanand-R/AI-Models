@@ -162,7 +162,10 @@ Prediction: Time series foundational models would be utilized.
 	B. AirVisual API (CO2, PM2.5, Air Quality Index) → https://www.iqair.com/
 	C. SmartThings API (IoT device integration) → https://smartthings.developer.samsung.com/
 
+**Sample Datasets:**
 ![image](https://github.com/user-attachments/assets/d3494bd9-25ac-4313-9f49-e401c4e53019)
+
+![image](https://github.com/user-attachments/assets/1e71df19-6d15-49c0-bcf1-1b30c06f4bee)
 
 
 3. Data Preprocessing
