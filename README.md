@@ -164,7 +164,7 @@ Prediction: Time series foundational models would be utilized.
 
 2. Data Preprocessing
    
-   A. Missing Data Handling: We can start with simple averageing, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferencial statistics includes Probability & Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
+   A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
    
    B. Normalization and standardizations.(Min-Max Scalling, z-Scoring etc.,)
    
