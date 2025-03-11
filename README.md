@@ -159,9 +159,10 @@ Prediction: Time series foundational models would be utilized.
 1. Data Collection, (Major Weather Platforms API's),
 2. Data Preprocessing
    
-   	A. Missing Data Handling: We can start with simple averageing, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferencial statistics includes Probability & Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
+   A. Missing Data Handling: We can start with simple averageing, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferencial statistics includes Probability & Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Of course Transformers, LSTM, GANs and xLSTM) for highly non linear data.
    
-        B. Normalization and standardizations.(Min-Max Scalling, z-Scoring etc.,)
+   B. Normalization and standardizations.(Min-Max Scalling, z-Scoring etc.,)
+   
 4. Feature Engineering, (Functions to create/select different variables like humitity, wind speed and lot more.,)
 5. Model Selection (Time series models like ARIMA, RNN and LSTM can be leveraged),
 6. Evaluation Metrics (Mean Square Error, etc),
