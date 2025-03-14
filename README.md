@@ -135,11 +135,12 @@ Major 7 indices  were considered in this study in three different regions such  
 ** Model Approach:**
 1. Data Collection, (Yahoo finance for exploratory purpose)
 2. Data Preprocessing,
-   ![image](https://github.com/user-attachments/assets/184ec3d1-f8b1-4c07-ab4d-5f8f65c3c3fd)
+   
+![image](https://github.com/user-attachments/assets/573457e7-2bda-4b40-9079-4e68b7cbb4ca)
 
-4. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
-5. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
-6. Evaluation Metrics (Mean Square Error (MSE), Mean Absolute Error (MAE))
+3. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
+4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
+5. Evaluation Metrics (Mean Square Error (MSE), Mean Absolute Error (MAE))
 7. Results Interpretation And Visualization
 8. Optionally, business analytics to understand different varities of sectors and revenue models.
 
@@ -171,7 +172,7 @@ Prediction: Time series foundational models would be utilized.
    
    B. Normalization and standardizations.(Min-Max Scalling, z-Scoring etc.,)
 
-   ![image](https://github.com/user-attachments/assets/9183eca7-595f-463d-986d-84eafbcc661f)
+![image](https://github.com/user-attachments/assets/269f508b-9207-42a1-80eb-fc5e7b1deb26)
 
    
 4. Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
