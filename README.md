@@ -229,7 +229,7 @@ P. Investing for Future
 
 **General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
-IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
+**Reports we can refer**: IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
 According to the IEA, **buildings are responsible for nearly 40% of global energy-related CO₂ emissions**. That’s MASSIVE. Climate Change right!
 
