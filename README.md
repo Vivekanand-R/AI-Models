@@ -177,6 +177,8 @@ Prediction: Time series foundational models would be utilized.
 
 	H. **Open Buildings:** https://sites.research.google/gr/open-buildings/
 
+	I. **Smart Building Simulators:** https://github.com/google/sbsim
+
 
 3. Data Preprocessing
    
