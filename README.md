@@ -188,7 +188,7 @@ Prediction: Time series foundational models would be utilized.
 
    
 4. Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
-5. Model Selection (Time series models like ARIMA, RNN and LSTM can be leveraged),
+5. Model Selection (Models like ARIMA, RNN, LSTM, Transformers can be leveraged),
 6. Evaluation Metrics (Mean Square Error, etc),
 7. Results Interpretation, and
 8. Optionally, flat maps will be implemented for better visualization.
