@@ -193,7 +193,7 @@ Prediction: Time series foundational models would be utilized.
 8. Optionally, flat maps will be implemented for better visualization.
 
 
-Potential Advantages or Benefits Estimation:
+**Potential Advantages or Benefits Estimation:**
 
 A. Predictive Maintenance = No Surprise Breakdowns,
 
@@ -229,7 +229,7 @@ P. Investing for Future
 
 IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
-According to the IEA, buildings are responsible for nearly 40% of global energy-related CO₂ emissions. That’s MASSIVE. Climate Change right!
+According to the IEA, **buildings are responsible for nearly 40% of global energy-related CO₂ emissions**. That’s MASSIVE. Climate Change right!
 
 
 
