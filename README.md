@@ -194,7 +194,8 @@ Prediction: Time series foundational models would be utilized.
 8. Optionally, flat maps will be implemented for better visualization.
 
 
-Potential Advantages or Benefits:
+Potential Advantages or Benefits Estimation:
+
 A. Predictive Maintenance = No Surprise Breakdowns,
 
 B. Environmental Impact,
