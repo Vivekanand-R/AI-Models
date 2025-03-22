@@ -150,7 +150,7 @@ For basic conceptual example, please refer below RSI dashboard:
 
 Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
-**Case Study 2: Weather Data Analysis:**
+**Case Study 2: Smart Buildings & Smart Cities Analytics:**
 
 City List: Created a list of 20 major cities with their latitude and longitude coordinates.
 
@@ -162,11 +162,21 @@ Prediction: Time series foundational models would be utilized.
 1. Data Collection, (Major Weather Platforms API's),
         Example APIs for real-time environmental data:
 	A. OpenWeatherMap (Temperature, humidity, wind, air quality) → https://openweathermap.org/api
+
 	B. AirVisual API (CO2, PM2.5, Air Quality Index) → https://www.iqair.com/
+
 	C. SmartThings API (IoT device integration) → https://smartthings.developer.samsung.com/
 
+        D. **Google's SMart Buildings:** https://www.tensorflow.org/datasets/catalog/smart_buildings
 
-2. Data Preprocessing
+        E. **CU-BEMS, smart building energy and IAQ data** [https://www.tensorflow.org/datasets/catalog/smart_buildings](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)
+
+        F. Smart Cities India: https://smartcities.data.gov.in/?utm_source=chatgpt.com
+
+        G. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
+
+
+3. Data Preprocessing
    
    A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Transformers, LSTM, GANs and xLSTM) for highly non linear data.
    
