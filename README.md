@@ -162,18 +162,20 @@ Prediction: Time series foundational models would be utilized.
 1. Data Collection, (Major Weather Platforms API's),
         Example APIs for real-time environmental data:
 	A. OpenWeatherMap (Temperature, humidity, wind, air quality) → https://openweathermap.org/api
-
+	
 	B. AirVisual API (CO2, PM2.5, Air Quality Index) → https://www.iqair.com/
-
+	
 	C. SmartThings API (IoT device integration) → https://smartthings.developer.samsung.com/
+	
+	D. **Google's SMart Buildings:** https://www.tensorflow.org/datasets/catalog/smart_buildings
+	
+	E. **CU-BEMS, smart building energy and IAQ data** [https://www.tensorflow.org/datasets/catalog/smart_buildings](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)
+	
+	F. Smart Cities India: https://smartcities.data.gov.in/?utm_source=chatgpt.com
+	
+	G. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
 
-        D. **Google's SMart Buildings:** https://www.tensorflow.org/datasets/catalog/smart_buildings
-
-        E. **CU-BEMS, smart building energy and IAQ data** [https://www.tensorflow.org/datasets/catalog/smart_buildings](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)
-
-        F. Smart Cities India: https://smartcities.data.gov.in/?utm_source=chatgpt.com
-
-        G. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
+	H. **Open Buildings:** https://sites.research.google/gr/open-buildings/
 
 
 3. Data Preprocessing
@@ -190,6 +192,48 @@ Prediction: Time series foundational models would be utilized.
 6. Evaluation Metrics (Mean Square Error, etc),
 7. Results Interpretation, and
 8. Optionally, flat maps will be implemented for better visualization.
+
+
+Potential Advantages or Benefits:
+A. Predictive Maintenance = No Surprise Breakdowns,
+
+B. Environmental Impact,
+
+C. Higher Asset Value & Tenant Attraction,
+
+D. Carbon Emission, Energy Optimization and Savings,
+
+E. Integration with Renewable energy, and
+
+F. Smarter Construction, Reduced Operational Waste, and Energy Efficient Buildings. 
+
+G. Cleaner Indoor Air = Healthier Humans
+
+H. Lower Utility Bills = Instant Payback
+
+I. Carbon Taxes or Regulations
+
+J. Attracting Talents, or workforce to a modern buildings. 
+
+K. Operational Efficiency Without More Staff
+
+L. Better ROI Over Time (Better resale value)
+
+M. AI climate models, part of smart cities. I.e. Integration
+
+N. Customer Satisfaction
+
+O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
+
+P. Investing for Future
+
+IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
+
+According to the IEA, buildings are responsible for nearly 40% of global energy-related CO₂ emissions. That’s MASSIVE. Climate Change right!
+
+
+
+
 
 
 
