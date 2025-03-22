@@ -193,7 +193,7 @@ Prediction: Time series foundational models would be utilized.
 8. Optionally, flat maps will be implemented for better visualization.
 
 
-**Potential Advantages or Benefits Estimation:**
+**Potential Advantages or Benefits Estimation for Smart Buildings:**
 
 A. Predictive Maintenance = No Surprise Breakdowns,
 
@@ -226,6 +226,8 @@ N. Customer Satisfaction
 O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
 
 P. Investing for Future
+
+**General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
 IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
