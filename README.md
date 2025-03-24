@@ -170,14 +170,12 @@ Prediction: Time series foundational models would be utilized.
 	D. **Google's SMart Buildings:** https://www.tensorflow.org/datasets/catalog/smart_buildings
 	
 	E. **CU-BEMS, smart building energy and IAQ data** [https://www.tensorflow.org/datasets/catalog/smart_buildings](https://www.kaggle.com/datasets/claytonmiller/cubems-smart-building-energy-and-iaq-data)
-	
-	F. Smart Cities India: https://smartcities.data.gov.in/?utm_source=chatgpt.com
-	
-	G. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
+		
+	F. Smart Cities: https://www.kaggle.com/datasets/magdamonteiro/smart-cities-index-datasets/data
 
-	H. **Open Buildings:** https://sites.research.google/gr/open-buildings/
+	G. **Open Buildings:** https://sites.research.google/gr/open-buildings/
 
-	I. **Smart Building Simulators:** https://github.com/google/sbsim
+	H. **Smart Building Simulators:** https://github.com/google/sbsim
 
 
 3. Data Preprocessing
