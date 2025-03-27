@@ -197,7 +197,7 @@ Prediction: Time series foundational models would be utilized.
 
 **Potential Advantages or Benefits Estimation for Smart Buildings:**
 
-A. Predictive Maintenance = No Surprise Breakdowns,
+A. Predictive Maintenance = No Surprise Breakdowns, (Labor cost, Travel cost, Planned Visits)
 
 B. Environmental Impact,
 
@@ -221,13 +221,11 @@ K. Operational Efficiency Without More Staff
 
 L. Better ROI Over Time (Better resale value)
 
-M. AI climate models, part of smart cities. I.e. Integration
+M. Customer Satisfaction, AI climate models, part of smart cities. I.e. Integration
 
-N. Customer Satisfaction
+N. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
 
-O. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
-
-P. Investing for Future
+O. Investing for Future Buildings
 
 **General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
