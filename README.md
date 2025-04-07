@@ -197,41 +197,13 @@ Prediction: Time series foundational models would be utilized.
 
 **Potential Advantages or Benefits Estimation for Smart Buildings:**
 
-A. Predictive Maintenance = No Surprise Breakdowns, (Labor cost, Travel cost, Planned Visits)
-
-B. Environmental Impact,
-
-C. Higher Asset Value & Tenant Attraction,
-
-D. Carbon Emission, Energy Optimization and Savings,
-
-E. Integration with Renewable energy, and
-
-F. Smarter Construction, Reduced Operational Waste, and Energy Efficient Buildings. 
-
-G. Cleaner Indoor Air = Healthier Humans
-
-H. Lower Utility Bills = Instant Payback
-
-I. Carbon Taxes or Regulations
-
-J. Attracting Talents, or workforce to a modern buildings. 
-
-K. Operational Efficiency Without More Staff
-
-L. Better ROI Over Time (Better resale value)
-
-M. Customer Satisfaction, AI climate models, part of smart cities. I.e. Integration
-
-N. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,)
-
-O. Investing for Future Buildings
+A. Predictive Maintenance = No Surprise Breakdowns, (Labor cost, Travel cost, Planned Visits) | B. Environmental Impact | C. Higher Asset Value & Tenant Attraction | D. Carbon Emission, Energy Optimization and Savings | E. Integration with Renewable energy | F. Smarter Construction, Reduced Operational Waste, and Energy Efficient Buildings | G. Cleaner Indoor Air = Healthier Humans | H. Lower Utility Bills = Instant Payback | I. Carbon Taxes or Regulations | J. Attracting Talents, or workforce to a modern buildings | K. Operational Efficiency Without More Staff | L. Better ROI Over Time (Better resale value) | M. Customer Satisfaction, AI climate models, part of smart cities. I.e. Integration | N. Grid Independence & Energy Resilience (I.e During Grid Downtimes due to natural disasters, energy downtime etc.,) | O. Investing for Future Buildings
 
 **General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
 **Reports we can refer**: IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
-According to the IEA, **buildings are responsible for nearly 40% of global energy-related CO₂ emissions**. That’s MASSIVE. Climate Change right!
+According to the IEA, **buildings are responsible for nearly 30-40% of global energy-related CO₂ emissions**. That’s Massive. Climate Change right!
 
 
 
