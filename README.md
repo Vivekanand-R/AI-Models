@@ -137,12 +137,9 @@ Major 7 indices  were considered in this study in three different regions such  
 2. Data Preprocessing,
 3. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
 4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
-
-![image](https://github.com/user-attachments/assets/573457e7-2bda-4b40-9079-4e68b7cbb4ca)
-
-6. Evaluation Metrics (Mean Square Error (MSE), Mean Absolute Error (MAE))
-7. Results Interpretation And Visualization
-8. Optionally, business analytics to understand different varities of sectors and revenue models.
+5. Evaluation Metrics (Mean Square Error (MSE), Mean Absolute Error (MAE))
+6. Results Interpretation And Visualization
+7. Optionally, business analytics to understand different varities of sectors and revenue models.
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
