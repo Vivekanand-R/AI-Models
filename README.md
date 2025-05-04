@@ -201,9 +201,9 @@ A. Predictive Maintenance = No Surprise Breakdowns, (Labor cost, Travel cost, Pl
 
 **General Value Prop:** Smart Buildings transform spaces into intelligent, responsive environments — cutting energy waste, boosting occupant comfort, and unlocking real-time insights for better decisions — all while reducing carbon emissions and operating costs.
 
-**Reports we can refer**: IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
+**Reports for reference**: IEA International Energy Agency | OECD Organization for Economic Cooperation and Development
 
-According to the IEA, **buildings are responsible for nearly 30-40% of global energy-related CO₂ emissions**. That’s Massive. Climate Change right!
+According to the IEA, **buildings are responsible for nearly 30-40% of global energy-related CO₂ emissions**. That’s Massive. Climate Change!
 
 
 
