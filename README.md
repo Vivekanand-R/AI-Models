@@ -93,6 +93,13 @@ Softmax: Range [0, 1] for multi-class probabilities.
 
 --------------------------------------------
 
+Backpropagation Technique:
+
+![image](https://github.com/user-attachments/assets/01b02ad8-b838-4d5e-974c-730a27fa9532)
+
+
+--------------------------------------------
+
 **Case Study 1: Stock Data Analysis**   
 
 Numerous large-scale projects and prominent financial institutions focus
