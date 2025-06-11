@@ -100,7 +100,7 @@ Backpropagation Technique:
 
 --------------------------------------------
 
-**Case Study 1: Stock Data Analysis**   
+**Case Study 1: Multi-Variable Time Series Analysis**   
 
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
