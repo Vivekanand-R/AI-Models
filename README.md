@@ -252,7 +252,7 @@ Applications:
 		B. Drug discovery: Used to model target proteins for virtual screening, docking, and rational drug design.
 		C. Protein–protein interaction modeling: AlphaFold-Multimer helps predict how proteins bind and form complexes.
 		D. Functional annotation of unknown proteins: Enables structural insights for "dark proteome" in genomics and metagenomics.
-		E. Studying disease mutations: Helps analyze structural effects of mutations in cancer, neurodegeneration, and rare diseases.
+		E. Studying disease mutations: Helps analyze structural effects of mutations in cancer, neurodegeneration, and other conditions.
 
 
 
