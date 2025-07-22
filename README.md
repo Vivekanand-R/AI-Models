@@ -155,6 +155,8 @@ For basic conceptual example, please refer below RSI dashboard:
 
 Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
+----------------------------------------------------
+
 **Case Study 2: Smart Buildings & Smart Cities Analytics:**
 
 City List: Created a list of 20 major cities with their latitude and longitude coordinates.
@@ -210,6 +212,8 @@ A. Predictive Maintenance = No Breakdowns, (Labor cost, Travel cost, Planned Vis
 
 According to the IEA, **buildings are responsible for nearly 30-40% of global energy-related CO₂ emissions**. That’s Massive. Climate Change!
 
+
+-------------------------------------------------------
 
 **Case Study 3: AlphaFold Model Versions**
 
