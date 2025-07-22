@@ -101,20 +101,7 @@ Backpropagation Technique:
 --------------------------------------------
 
 
-**Case Study 1: AlphaFold Model Versions**
-
-AlphaFold developed by DeepMind that predicts the 3D structure of proteins from their amino acid sequence with high accuracy. 
-
-At its core, AlphaFold solves the "protein folding problem":
-
-<img width="1213" height="286" alt="image" src="https://github.com/user-attachments/assets/cc944859-fd56-45a1-9eaf-d67247604010" />
-
-Exploration Datasets:
-
-<img width="797" height="200" alt="image" src="https://github.com/user-attachments/assets/adeb2b2a-af15-4d9b-be75-47337f820446" />
-
-
-**Case Study 2: Multi-Variable Time Series Analysis**   
+**Case Study 1: Multi-Variable Time Series Analysis**   
 
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
@@ -168,7 +155,7 @@ For basic conceptual example, please refer below RSI dashboard:
 
 Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
-**Case Study 3: Smart Buildings & Smart Cities Analytics:**
+**Case Study 2: Smart Buildings & Smart Cities Analytics:**
 
 City List: Created a list of 20 major cities with their latitude and longitude coordinates.
 
@@ -224,8 +211,48 @@ A. Predictive Maintenance = No Breakdowns, (Labor cost, Travel cost, Planned Vis
 According to the IEA, **buildings are responsible for nearly 30-40% of global energy-related CO₂ emissions**. That’s Massive. Climate Change!
 
 
+**Case Study 3: AlphaFold Model Versions**
 
+AlphaFold developed by DeepMind that predicts the 3D structure of proteins from their amino acid sequence with high accuracy. 
 
+At its core, AlphaFold solves the "protein folding problem":
+
+<img width="1213" height="286" alt="image" src="https://github.com/user-attachments/assets/cc944859-fd56-45a1-9eaf-d67247604010" />
+
+We can reuse datasets across AlphaFold versions for single-sequence structure prediction, but only AlphaFold 2 is practically and fully usable today. AlphaFold 3 offers advanced capabilities, but access is restricted and not reproducible locally.
+
+Version-Specific Considerations
+
+AlphaFold 1
+		A. Input format: FASTA + preprocessed MSAs (custom pipeline), Output: Distance maps + coordinate models via Rosetta
+		B. Run locally: No official release; re-implementations exist but outdated
+		C. Best use: **Academic comparison only (use as a baseline)**
+		D. Can reuse sequences, but need to reconstruct old-style pipelines with multiple tools.
+
+AlphaFold 2
+		A. Input: FASTA, MSA generated via tools like JackHMMer, HHblits
+		B. Output: 3D atomic coordinates (.pdb), confidence metrics (pLDDT)
+		C. Run locally: Yes – full open-source model + Docker container available
+		D. Best use: All structure prediction tasks; high-quality general model
+		E. Same datasets work easily here with minimal adaptation.
+
+AlphaFold 3
+		A. Input: Protein + ligands/RNA/DNA (structured prompt)
+		B. Model availability: NOT open-source – only accessible via DeepMind’s API through Isomorphic Labs / Helix
+		C. Output: 3D structures with complex components (protein-ligand, etc.)
+		D. Best use: Modeling complexes and interactions (not just single proteins)
+
+Exploration Datasets:
+
+<img width="797" height="200" alt="image" src="https://github.com/user-attachments/assets/adeb2b2a-af15-4d9b-be75-47337f820446" />
+
+Applications:
+
+		A. Protein structure prediction: AlphaFold revolutionized prediction of 3D protein structures from sequences with near-experimental accuracy.
+		B. Drug discovery: Used to model target proteins for virtual screening, docking, and rational drug design.
+		C. Protein–protein interaction modeling: AlphaFold-Multimer helps predict how proteins bind and form complexes.
+		D. Functional annotation of unknown proteins: Enables structural insights for "dark proteome" in genomics and metagenomics.
+		E. Studying disease mutations: Helps analyze structural effects of mutations in cancer, neurodegeneration, and rare diseases.
 
 
 
