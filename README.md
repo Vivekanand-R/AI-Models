@@ -100,7 +100,15 @@ Backpropagation Technique:
 
 --------------------------------------------
 
-**Case Study 1: Multi-Variable Time Series Analysis**   
+
+**Case Study 1: AlphaFold Model Versions**
+
+<img width="1213" height="286" alt="image" src="https://github.com/user-attachments/assets/cc944859-fd56-45a1-9eaf-d67247604010" />
+
+<img width="797" height="200" alt="image" src="https://github.com/user-attachments/assets/adeb2b2a-af15-4d9b-be75-47337f820446" />
+
+
+**Case Study 2: Multi-Variable Time Series Analysis**   
 
 Numerous large-scale projects and prominent financial institutions focus
  on predicting financial markets using advanced Artificial Intelligence (AI) and
@@ -154,7 +162,7 @@ For basic conceptual example, please refer below RSI dashboard:
 
 Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
 
-**Case Study 2: Smart Buildings & Smart Cities Analytics:**
+**Case Study 3: Smart Buildings & Smart Cities Analytics:**
 
 City List: Created a list of 20 major cities with their latitude and longitude coordinates.
 
