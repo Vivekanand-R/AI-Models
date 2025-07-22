@@ -103,7 +103,13 @@ Backpropagation Technique:
 
 **Case Study 1: AlphaFold Model Versions**
 
+AlphaFold developed by DeepMind that predicts the 3D structure of proteins from their amino acid sequence with high accuracy. 
+
+At its core, AlphaFold solves the "protein folding problem":
+
 <img width="1213" height="286" alt="image" src="https://github.com/user-attachments/assets/cc944859-fd56-45a1-9eaf-d67247604010" />
+
+Exploration Datasets:
 
 <img width="797" height="200" alt="image" src="https://github.com/user-attachments/assets/adeb2b2a-af15-4d9b-be75-47337f820446" />
 
