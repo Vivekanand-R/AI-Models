@@ -259,6 +259,24 @@ Applications:
 		E. Studying disease mutations: Helps analyze structural effects of mutations in cancer, neurodegeneration, and other conditions.
 
 
+Few Other Data Apps and For MLops Experiements:
+
+1.https://www.tensorflow.org/tensorboard
+2. https://grafana.com/
+3. https://streamlit.io/
+4. https://wandb.ai/
+
+
+Top 8 frameworks for AI agent development:
+
+		A. LangChain – LLM-based agents with tools, memory, and chains
+		B. AutoGen (Microsoft) – Multi-agent orchestration and conversation with tool use
+		C. OpenAI Gym / Gymnasium – Standard RL environments for training agents
+		D. Hugging Face Transformers + Agents – Pretrained LLMs with built-in tools and agent API
+		E. Unity ML-Agents Toolkit – 3D simulation and training for embodied/robotic agents
+		F. Haystack (deepset) – Retrieval-Augmented Generation (RAG) pipelines for knowledge agents
+		G. RLlib (Ray) – Scalable reinforcement learning, supports multi-agent training
+		H. CrewAI – LLM-based agent teamwork with role delegation and task collaboration
 
 
 
