@@ -2,6 +2,11 @@
 				
 ![image](https://github.com/user-attachments/assets/ab1386a7-c571-43ab-aa98-3ed0905c4d73)
 
+**MoR vs Transformer:**
+
+<img width="1515" height="486" alt="image" src="https://github.com/user-attachments/assets/b64b3b6f-56b0-4185-940e-3f80bb9ae2b0" />
+
+
 Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
 
 Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
