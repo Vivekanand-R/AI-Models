@@ -4,7 +4,7 @@
 
 **MoR vs Transformer:**
 
-<img width="1515" height="486" alt="image" src="https://github.com/user-attachments/assets/b64b3b6f-56b0-4185-940e-3f80bb9ae2b0" />
+<img width="1508" height="488" alt="image" src="https://github.com/user-attachments/assets/c3dea711-29e5-4f44-97a7-8964b9bfa4a1" />
 
 
 Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
