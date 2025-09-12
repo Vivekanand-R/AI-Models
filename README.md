@@ -7,6 +7,14 @@
 <img width="1508" height="488" alt="image" src="https://github.com/user-attachments/assets/c3dea711-29e5-4f44-97a7-8964b9bfa4a1" />
 
 
+
+CNN Models Architectures:
+
+
+<img width="1717" height="443" alt="image" src="https://github.com/user-attachments/assets/699665f6-157a-434f-8ab5-f8bdc00718ab" />
+
+
+------------------
 Simple problems (linear or seasonal trends): ARIMA, SARIMA, Holt-Winters.
 
 Multivariate or external variables: VAR, SARIMAX, or LSTM with exogenous inputs.
