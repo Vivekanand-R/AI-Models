@@ -8,7 +8,7 @@
 
 
 
-CNN Models Architectures:
+CNN Model Architectures:
 
 
 <img width="1717" height="443" alt="image" src="https://github.com/user-attachments/assets/699665f6-157a-434f-8ab5-f8bdc00718ab" />
