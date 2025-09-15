@@ -2,20 +2,19 @@
 				
 ![image](https://github.com/user-attachments/assets/ab1386a7-c571-43ab-aa98-3ed0905c4d73)
 
-**MoR vs Transformer:**
+**Latest MoR vs Transformer:**
 
 <img width="1508" height="488" alt="image" src="https://github.com/user-attachments/assets/c3dea711-29e5-4f44-97a7-8964b9bfa4a1" />
 
 
-CNN Model Architectures:
-
+## **CNN Model Architectures:**
 
 <img width="1717" height="443" alt="image" src="https://github.com/user-attachments/assets/699665f6-157a-434f-8ab5-f8bdc00718ab" />
 
 
 --------------------------------------------
 
-Backpropagation Technique:
+# **Backpropagation Technique:**
 
 ![image](https://github.com/user-attachments/assets/01b02ad8-b838-4d5e-974c-730a27fa9532)
 
