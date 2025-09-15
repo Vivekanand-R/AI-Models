@@ -70,10 +70,6 @@ Major 7 indices  were considered in this study in three different regions such  
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
-For basic conceptual example, please refer below RSI dashboard: 
-
-Stock Forecast Analysis: https://public.tableau.com/app/profile/vivekanand4623/vizzes
-
 ----------------------------------------------------
 
 **Case Study 2: Smart Buildings & Smart Cities Analytics:**
