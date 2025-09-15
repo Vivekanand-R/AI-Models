@@ -1,8 +1,8 @@
-**List of Time Series Models:**
+#**List of Time Series Models:**
 				
 ![image](https://github.com/user-attachments/assets/ab1386a7-c571-43ab-aa98-3ed0905c4d73)
 
-**Latest MoR vs Transformer:**
+#**Latest MoR vs Transformer:**
 
 <img width="1508" height="488" alt="image" src="https://github.com/user-attachments/assets/c3dea711-29e5-4f44-97a7-8964b9bfa4a1" />
 
@@ -13,7 +13,7 @@
 
 --------------------------------------------
 
-**Backpropagation Technique:**
+#**Backpropagation Technique:**
 
 ![image](https://github.com/user-attachments/assets/01b02ad8-b838-4d5e-974c-730a27fa9532)
 
