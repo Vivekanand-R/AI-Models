@@ -33,9 +33,6 @@ Numerous large-scale projects and prominent financial institutions focus
  influence market behavior, such as macroeconomic trends, economic indicators,
  geopolitical events, technical indicators, regional and sector-specific develop
 ments.
- 
-![Major_Indices_CP](https://github.com/user-attachments/assets/1dfb68c2-cf5e-481a-85f6-8d7b3b6ae279)
-
 
 **Data Sources and Collection: ** 
 Data used in this project were collected mainly from yahoo finance and government open source platforms. 
