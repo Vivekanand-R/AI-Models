@@ -60,10 +60,9 @@ Major 7 indices  were considered in this study in three different regions such  
 1. Data Collection, (Yahoo finance for exploratory purpose)
 2. Data Preprocessing,
 3. Feature Engineering, (Functions to create 15 different technical indicators to evaluate the stocks)
-4. Model Selection (Time series models like ARIMA, RNN and LSTM will be leveraged)
+4. Model Selection (Time series models)
 5. Evaluation Metrics (Mean Square Error (MSE), Mean Absolute Error (MAE))
 6. Results Interpretation And Visualization
-7. Optionally, business analytics to understand different varities of sectors and revenue models.
 
 ![image](https://github.com/user-attachments/assets/c51eb893-0558-47f0-b4a7-98261db5507e)
 
@@ -101,17 +100,16 @@ Prediction: Time series foundational models would be utilized.
 
 3. Data Preprocessing
    
-   A. Missing Data Handling: We can start with simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average, If the goal is to improve the existing model (utilizing inferential statistics includes Probability, Uncertainty, Correlations etc.,), for alternative or for more missing data advanced models (Transformers, LSTM, GANs and xLSTM) for highly non linear data.
+   A. Missing Data Handling: Simple averaging, forward fill (windows lead), backward fill (windows lag), mean/average.
    
 4. Feature Engineering, (Functions to create/select different variables like Temperature, Humidity, CO2, PM2.5, VOCs, Noise, wind speed, carbon emissions, Oxygen, Light Levels, Air flow, thermal, vibrations and lot more.,)
-5. Model Selection (Models like ARIMA, RNN, LSTM, Transformers can be leveraged),
+5. Model Selection,
    A. Weights Normalization, standardizations.(Min-Max Scalling, z-Scoring etc.,)
 
 ![image](https://github.com/user-attachments/assets/269f508b-9207-42a1-80eb-fc5e7b1deb26)
 
-6. Evaluation Metrics (Mean Square Error, etc),
-7. Results Interpretation, and
-8. Optionally, flat maps will be implemented for better visualization.
+6. Evaluation Metrics (Mean Square Error, etc), and
+7. Results Interpretation
 
 
 **Potential Advantages or Benefits Estimation for Smart Buildings:**
