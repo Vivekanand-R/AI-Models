@@ -13,7 +13,7 @@ This repository is a **hands-on research and applied experimentation lab** cover
 - Deep learning architectures (CNNs, RNNs, Transformers)  
 - Generative models (GANs, Diffusion, VAEs)  
 - Large Language Models and AI agents  
-- Real-world industry case studies (finance, smart cities, healthcare, life sciences)
+- Real-world industry case studies (finance, energy, healthcare, life sciences)
 
 The work blends **theoretical foundations**, **implementation**, and **decision-driven experimentation**.
 
@@ -66,7 +66,7 @@ AI-Models-Recommender-Lab/
 ├── large_language_models/             # LLM concepts & notebooks
 ├── ai_agents/                        # Agentic AI, LangChain, orchestration
 ├── life_sciences/                    # AlphaFold & bioinformatics studies
-├── smart_cities_analytics/            # Smart buildings & cities case studies
+├── smart_buildings_analytics/         # Smart buildings & cities case studies
 ├── finance_ai/                       # Market forecasting & indices analysis
 ├── experiments/                      # Model diagnostics & comparisons
 ├── mlops_tools/                      # TensorBoard, W&B, Grafana, Streamlit
@@ -112,7 +112,7 @@ AI-Models-Recommender-Lab/
 ## Industry Case Studies
 
 ### 1. Financial Markets & Time Series
-- Multi-region index forecasting (S&P 500, NASDAQ, FTSE, Nikkei, DAX, Sensex)
+- Multi-region index forecasting (S&P 500, NASDAQ, FTSE, Sensex, Nikkei, DAX)
 - Integration of economic indicators
 - Probabilistic graphical modeling approaches
 
@@ -124,8 +124,8 @@ AI-Models-Recommender-Lab/
 
 ### 3. Life Sciences & Bioinformatics
 - AlphaFold model versions comparison
-- Protein structure prediction
-- Applications in drug discovery and genomics
+- Basic Protein structure prediction
+- Basic applications in drug discovery and genomics
 
 ---
 
@@ -178,9 +178,10 @@ Focus is on **observability, reproducibility, and insight**, not just metrics.
 
 ## Final Note
 
-This repository treats AI models as **systems, not scripts**.
+This repository treats AI as a **business capability**, not a collection of scripts.
 
-- **Understanding beats memorization**
-- **Experiments beat assumptions**
-- **Context beats benchmarks**
-- **Learning beats shortcuts**
+- **Understanding user, data, and system behavior matters more than complex algorithms**
+- **Validated experiments drive decisions, not untested assumptions**
+- **Real-world context (cost, risk, scale, regulation) outweighs benchmark performance**
+- **Continuous learning enables durable value, not shortcuts**
+
