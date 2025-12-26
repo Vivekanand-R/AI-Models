@@ -1,4 +1,4 @@
-## **AI-Models & Recommender Systems Lab**
+## **AI-Models and Recommender Systems Lab**
 
 **Applied Machine Learning, Deep Learning, Time Series, and Intelligent Systems — From Theory to Real-World Use Cases**
 
@@ -56,20 +56,20 @@ Key areas explored include:
 
 ```text
 AI-Models-Recommender-Lab/
-├── README.md                         # Repository overview & philosophy
+├── README.md                         # Repository overview and philosophy
 ├── recommender_systems/              # Multi-model recommendation systems
-├── time_series_models/               # Forecasting & probabilistic models
-├── deep_learning_fundamentals/        # Core DL concepts & architectures
+├── time_series_models/               # Forecasting and probabilistic models
+├── deep_learning_fundamentals/        # Core DL concepts and architectures
 ├── generative_models/                # GANs, Diffusion, Autoencoders
 ├── computer_vision/                  # CNNs, AlexNet, vision pipelines
 ├── graph_neural_networks/             # GNN models and experiments
-├── large_language_models/             # LLM concepts & notebooks
+├── large_language_models/             # LLM concepts and notebooks
 ├── ai_agents/                        # Agentic AI, LangChain, orchestration
-├── life_sciences/                    # AlphaFold & bioinformatics studies
-├── smart_buildings_analytics/         # Smart buildings & cities case studies
-├── finance_ai/                       # Market forecasting & indices analysis
-├── experiments/                      # Model diagnostics & comparisons
-├── mlops_tools/                      # TensorBoard, W&B, Grafana, Streamlit
+├── life_sciences/                    # AlphaFold and bioinformatics studies
+├── smart_buildings_analytics/         # Smart buildings and cities case studies
+├── finance_ai/                       # Market forecasting and indices analysis
+├── experiments/                      # Model diagnostics and comparisons
+├── mlops_tools/                      # TensorBoard, WandB, Grafana, Streamlit
 └── references/                       # PDFs, papers, and learning resources
 ```
 
@@ -83,7 +83,7 @@ AI-Models-Recommender-Lab/
 - Hybrid and ensemble approaches
 - Performance diagnostics and evaluation strategies
 
-### Time Series & Probabilistic Modeling
+### Time Series and Probabilistic Modeling
 - Financial indices forecasting (US, EU, Asia)
 - Weather and environmental modeling
 - External factor integration (macroeconomic, indicators)
@@ -91,7 +91,7 @@ AI-Models-Recommender-Lab/
 
 ### Deep Learning Architectures
 - CNNs (AlexNet, gradient descent optimization)
-- RNNs & LSTMs for sequential data
+- RNNs and LSTMs for sequential data
 - Graph Neural Networks
 - Optimization and backpropagation analysis
 
@@ -101,7 +101,7 @@ AI-Models-Recommender-Lab/
 - Diffusion models
 - Representation learning and synthesis
 
-### Large Language Models & Agents
+### Large Language Models and Agents
 - LLM fundamentals
 - Prompting and system design
 - Agentic frameworks (LangChain, AutoGen, CrewAI, RLlib)
@@ -111,25 +111,25 @@ AI-Models-Recommender-Lab/
 
 ## Industry Case Studies
 
-### 1. Financial Markets & Time Series
-- Multi-region index forecasting (S&P 500, NASDAQ, FTSE, Sensex, Nikkei, DAX)
+### 1. Financial Markets and Time Series
+- Multi-region index forecasting (SandP 500, NASDAQ, FTSE, Sensex, Nikkei, DAX)
 - Integration of economic indicators
 - Probabilistic graphical modeling approaches
 
-### 2. Smart Buildings & Smart Cities
+### 2. Smart Buildings and Smart Cities
 - Environmental and energy analytics
 - Predictive maintenance
 - Sustainability, carbon reduction, and ROI estimation
 - Integration with IoT and real-time APIs
 
-### 3. Life Sciences & Bioinformatics
+### 3. Life Sciences and Bioinformatics
 - AlphaFold model versions comparison
 - Basic Protein structure prediction
 - Basic applications in drug discovery and genomics
 
 ---
 
-## Evaluation & Experimentation Philosophy
+## Evaluation and Experimentation Philosophy
 
 Experiments are designed to answer:
 - What works better, and **why**
@@ -143,11 +143,11 @@ Includes:
 
 ---
 
-## Tools & MLOps
+## Tools and MLOps
 
 Explored tools include:
 - TensorBoard
-- Weights & Biases (W&B)
+- Weights and Biases (WandB)
 - Grafana
 - Streamlit
 
