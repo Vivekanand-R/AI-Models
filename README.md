@@ -151,7 +151,7 @@ Explored tools include:
 - Grafana
 - Streamlit
 
-Focus is on **observability, reproducibility, and insight**, not just metrics.
+Focus is on **observability, reproducibility, and insight**.
 
 ---
 
@@ -178,10 +178,10 @@ Focus is on **observability, reproducibility, and insight**, not just metrics.
 
 ## Final Note
 
-This repository treats AI as a **business capability**, not a collection of scripts.
+This repository treats AI as a **business capability**.
 
 - **Understanding user, data, and system behavior matters more than complex algorithms**
-- **Validated experiments drive decisions, not untested assumptions**
-- **Real-world context (cost, risk, scale, regulation) outweighs benchmark performance**
-- **Continuous learning enables durable value, not shortcuts**
+- **Validated experiments drive decisions, to handle untested assumptions**
+- **Real-world context (cost, risk, scale, regulation), benchmark performance**
+- **Continuous learning enables durable value**
 
