@@ -66,7 +66,6 @@ AI-Models-Recommender-Lab/
 ├── large_language_models/             # LLM concepts and notebooks
 ├── ai_agents/                        # Agentic AI, LangChain, orchestration
 ├── life_sciences/                    # AlphaFold and bioinformatics studies
-├── smart_buildings_analytics/         # Smart buildings and cities case studies
 ├── finance_ai/                       # Market forecasting and indices analysis
 ├── experiments/                      # Model diagnostics and comparisons
 ├── mlops_tools/                      # TensorBoard, WandB, Grafana, Streamlit
@@ -116,7 +115,7 @@ AI-Models-Recommender-Lab/
 - Integration of economic indicators
 - Probabilistic graphical modeling approaches
 
-### 2. Smart Buildings and Smart Cities
+### 2. Energy Analytics
 - Environmental and energy analytics
 - Predictive maintenance
 - Sustainability, carbon reduction, and ROI estimation
@@ -157,12 +156,12 @@ Focus is on **observability, reproducibility, and insight**.
 
 ## Who This Repository Is For
 
-- **AI / ML engineers**
+- **AI Leaders**
 - **Applied scientists**
-- **Data scientists**
-- **Researchers and students**
-- **Product-focused engineers**
-- **Anyone learning AI beyond tutorials**
+- **AI / ML engineers/Data scientists**
+- **Researchers**
+- **Product-focused Leaders**
+- **Anyone learning AI**
 
 ---
 
@@ -180,7 +179,7 @@ Focus is on **observability, reproducibility, and insight**.
 
 This repository treats AI as a **business capability**.
 
-- **Understanding user, data, and system behavior matters more than complex algorithms**
+- **Understanding data, and system behavior matters more than complex algorithms**
 - **Validated experiments drive decisions, to handle untested assumptions**
 - **Real-world context (cost, risk, scale, regulation), benchmark performance**
 - **Continuous learning enables durable value**
