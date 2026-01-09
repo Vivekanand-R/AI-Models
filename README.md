@@ -177,7 +177,7 @@ Focus is on **observability, reproducibility, and insight**.
 
 This repository treats AI as a **business capability**.
 
-- **Understanding data, and system behavior matters more than complex algorithms**
+- **Deep understanding of data matters as much as complex algorithms**
 - **Validated experiments drive decisions, to handle assumptions**
 - **Real-world context (cost, risk, scale, regulation), benchmark performance**
 - **Continuous learning enables durable value**
