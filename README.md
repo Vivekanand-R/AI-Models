@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository is a **hands-on research and applied experimentation** covering a wide spectrum of **AI / ML / Deep Learning models**, with a strong emphasis on:
+This repository is a hands-on research and applied experimentation covering a wide spectrum of **AI / ML / Deep Learning models**, with a strong emphasis on:
 
 - Recommender systems  
 - Time series and probabilistic modeling  
