@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository is a **hands-on research and applied experimentation lab** covering a wide spectrum of **AI / ML / Deep Learning models**, with a strong emphasis on:
+This repository is a hands-on research and applied experimentation covering a wide spectrum of **AI / ML / Deep Learning models**, with a strong emphasis on:
 
 - Recommender systems  
 - Time series and probabilistic modeling  
@@ -78,7 +78,7 @@ AI-Models-Recommender-Lab/
 
 ### Recommender Systems
 - Multi-model recommendation pipelines
-- LSTM-based sequence recommenders
+- sequence recommenders
 - Hybrid and ensemble approaches
 - Performance diagnostics and evaluation strategies
 
@@ -138,8 +138,6 @@ Experiments are designed to answer:
 Includes:
 - Model diagnostics
 - Performance questionnaires
-- Failed experiments and lessons learned
-
 ---
 
 ## Tools and MLOps
@@ -179,8 +177,8 @@ Focus is on **observability, reproducibility, and insight**.
 
 This repository treats AI as a **business capability**.
 
-- **Understanding data, and system behavior matters more than complex algorithms**
-- **Validated experiments drive decisions, to handle untested assumptions**
+- **Deep understanding of data matters as much as complex algorithms**
+- **Validated experiments drive decisions, to handle assumptions**
 - **Real-world context (cost, risk, scale, regulation), benchmark performance**
 - **Continuous learning enables durable value**
 
