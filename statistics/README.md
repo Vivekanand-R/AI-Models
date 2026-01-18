@@ -1,6 +1,6 @@
-## **Statistical and Linear Algebra Concepts**
+## **Statistical and Linear Algebra**
 
-## Statistics Concepts
+## Statistics
 - Probability distributions  
 - Conditional probability  
 - Expectation (Expected value)  
@@ -9,7 +9,7 @@
 - KL-divergence  
 - Sampling & negative sampling  
 
-## Linear Algebra Concepts
+## Linear Algebra
 - Basis and change of basis  
 - Vector spaces and subspaces  
 - Orthogonality  
@@ -24,12 +24,12 @@
 - Chain rule  
 - Gradient descent  
 
-## Sequence & Modeling Concepts
+## Sequence & Modeling
 - Time steps & sequence length  
 - Masking  
 - Positional encoding  
 
-## Numerical & Practical Concepts
+## Numerical & Practical
 - Normalization & standardization  
 - Numerical stability  
 - Floating-point precision  
@@ -120,5 +120,11 @@ Outer product:
 Eigenvector:- Special direction that remains unchanged in direction when a linear transformation is applied. Represents a fundamental pattern or axis along which the system behaves consistently.
 
 Eigenvalue:- Scalar that measures how strongly a transformation acts along its corresponding eigenvector. Iindicates the magnitude of scaling or importance of that direction.
+
+Other ML Concepts:-
+
+<img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
+
+
 
 
