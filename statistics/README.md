@@ -1,4 +1,4 @@
-## **Statistical and Linear Algebra**
+## **Statistical, Linear Algebra and Other ML Concepts**
 
 ## Statistics
 - Probability distributions  
