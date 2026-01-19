@@ -121,9 +121,19 @@ Eigenvector:- Special direction that remains unchanged in direction when a linea
 
 Eigenvalue:- Scalar that measures how strongly a transformation acts along its corresponding eigenvector. Iindicates the magnitude of scaling or importance of that direction.
 
-Other ML Concepts:-
+**Other ML Concepts/Workouts:-**
 
 <img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
+
+
+<img width="1098" height="508" alt="image" src="https://github.com/user-attachments/assets/135316d8-033b-4ff7-9746-b8db63ad3e3f" />
+
+
+<img width="1217" height="843" alt="image" src="https://github.com/user-attachments/assets/d4515888-21fa-4cb3-82fa-b3a947fe2805" />
+
+
+
+
 
 
 
