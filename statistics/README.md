@@ -137,6 +137,122 @@ If we added even one hidden layer:
             The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
 
 
+# Backpropagation Algorithm (Detailed)
+
+1. Network Notation
+
+a[0] = x   (input vector)
+
+For l = 1, 2, ..., L:
+
+z[l] = W[l] · a[l-1] + b[l]
+a[l] = σ(z[l])
+
+Where:
+W[l] : weight matrix at layer l
+b[l] : bias vector at layer l
+z[l] : pre-activation vector
+a[l] : activation / output vector
+σ(·) : activation function
+
+--------------------------------------------------
+
+2. Loss Function
+
+Let:
+ŷ = a[L]   (network output)
+y = true target
+
+Mean Squared Error (MSE):
+L = 1/2 · || ŷ − y ||²
+
+Cross-Entropy Loss:
+L = − Σ y · log(ŷ)
+
+--------------------------------------------------
+
+3. Objective of Backpropagation
+
+Compute gradients of the loss with respect to all parameters:
+
+∂L / ∂W[l]
+∂L / ∂b[l]
+
+--------------------------------------------------
+
+4. Error Term (Delta)
+
+Define the error signal at layer l:
+
+δ[l] = ∂L / ∂z[l]
+
+--------------------------------------------------
+
+5. Backpropagation at the Output Layer
+
+General form:
+
+δ[L] = (∂L / ∂a[L]) ⊙ σ'(z[L])
+
+Special cases:
+
+MSE + Linear activation:
+δ[L] = a[L] − y
+
+Softmax + Cross-Entropy:
+δ[L] = ŷ − y
+
+--------------------------------------------------
+
+6. Backpropagation for Hidden Layers
+
+For l = L−1, L−2, ..., 1:
+
+δ[l] = (W[l+1])ᵀ · δ[l+1] ⊙ σ'(z[l])
+
+--------------------------------------------------
+
+7. Gradients of Parameters
+
+Weight gradient:
+∂L / ∂W[l] = δ[l] · a[l-1]ᵀ
+
+Bias gradient:
+∂L / ∂b[l] = δ[l]
+
+--------------------------------------------------
+
+8. Parameter Update (Gradient Descent)
+
+Using learning rate η:
+
+W[l] = W[l] − η · ∂L / ∂W[l]
+b[l] = b[l] − η · ∂L / ∂b[l]
+
+--------------------------------------------------
+
+9. Complete Algorithm Summary
+
+Forward pass:
+z[l] = W[l] · a[l-1] + b[l]
+a[l] = σ(z[l])
+
+Backward pass:
+δ[L] = (∂L / ∂a[L]) ⊙ σ'(z[L])
+δ[l] = (W[l+1])ᵀ · δ[l+1] ⊙ σ'(z[l])
+
+Gradients:
+∂L / ∂W[l] = δ[l] · a[l-1]ᵀ
+∂L / ∂b[l] = δ[l]
+
+--------------------------------------------------
+
+Notes:
+- ⊙ denotes element-wise multiplication
+- All vectors are assumed to be column vectors
+- All equations are fully vectorized
+
+
 
 
 
