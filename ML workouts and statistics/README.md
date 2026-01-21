@@ -137,7 +137,7 @@ If we added even one hidden layer:
             The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
 
 
-**Evaluation Metrics (Concept Revision):-**
+**4. Evaluation Metrics:-**
 
 <img width="1838" height="855" alt="image" src="https://github.com/user-attachments/assets/f9b9fd28-2cc7-44e0-9cc3-09c89fe4ba0b" />
 
