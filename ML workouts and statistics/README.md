@@ -1,6 +1,6 @@
-## **Statistical and Linear Algebra Concepts**
+## **Statistical, Linear Algebra and Other ML Concepts**
 
-## Statistics Concepts
+## Statistics
 - Probability distributions  
 - Conditional probability  
 - Expectation (Expected value)  
@@ -9,7 +9,7 @@
 - KL-divergence  
 - Sampling & negative sampling  
 
-## Linear Algebra Concepts
+## Linear Algebra
 - Basis and change of basis  
 - Vector spaces and subspaces  
 - Orthogonality  
@@ -24,12 +24,12 @@
 - Chain rule  
 - Gradient descent  
 
-## Sequence & Modeling Concepts
+## Sequence & Modeling
 - Time steps & sequence length  
 - Masking  
 - Positional encoding  
 
-## Numerical & Practical Concepts
+## Numerical & Practical
 - Normalization & standardization  
 - Numerical stability  
 - Floating-point precision  
@@ -120,5 +120,24 @@ Outer product:
 Eigenvector:- Special direction that remains unchanged in direction when a linear transformation is applied. Represents a fundamental pattern or axis along which the system behaves consistently.
 
 Eigenvalue:- Scalar that measures how strongly a transformation acts along its corresponding eigenvector. Iindicates the magnitude of scaling or importance of that direction.
+
+## **Other ML Concepts/Workouts:-**
+
+<img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
+
+
+<img width="1387" height="522" alt="image" src="https://github.com/user-attachments/assets/7e305364-6c4e-4ed6-b51c-32398f066c28" />
+
+
+<img width="1217" height="843" alt="image" src="https://github.com/user-attachments/assets/d4515888-21fa-4cb3-82fa-b3a947fe2805" />
+
+The example workout that we performed is for single layer perceptron. 
+
+If we added even one hidden layer:
+            The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
+
+
+
+
 
 
