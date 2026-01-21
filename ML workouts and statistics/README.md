@@ -1,4 +1,4 @@
-## **Statistical, Linear Algebra and Other ML Concepts**
+## **ML Example Workouts and Statistical Concepts**
 
 ## Statistics
 - Probability distributions  
@@ -121,7 +121,7 @@ Eigenvector:- Special direction that remains unchanged in direction when a linea
 
 Eigenvalue:- Scalar that measures how strongly a transformation acts along its corresponding eigenvector. Iindicates the magnitude of scaling or importance of that direction.
 
-## **Other ML Concepts/Workouts:-**
+## **Other ML Concepts/Workouts/Concept Revision:-**
 
 <img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
 
@@ -137,6 +137,9 @@ If we added even one hidden layer:
             The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
 
 
+**Evaluation Metrics (Concept Revision):-**
+
+<img width="1838" height="855" alt="image" src="https://github.com/user-attachments/assets/f9b9fd28-2cc7-44e0-9cc3-09c89fe4ba0b" />
 
 
 
