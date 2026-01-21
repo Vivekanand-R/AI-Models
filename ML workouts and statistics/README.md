@@ -141,6 +141,12 @@ If we added even one hidden layer:
 
 <img width="1838" height="855" alt="image" src="https://github.com/user-attachments/assets/f9b9fd28-2cc7-44e0-9cc3-09c89fe4ba0b" />
 
+<p></p>
+<p></p>
+ 
+**5. Eigen Value Spectrum**
+
+<img width="1852" height="762" alt="image" src="https://github.com/user-attachments/assets/04335a57-efe6-4920-bc4b-39c52faacd8c" />
 
 
 
