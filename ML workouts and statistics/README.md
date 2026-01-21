@@ -1,5 +1,32 @@
 ## **ML Example Workouts and Statistical Concepts**
 
+<img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
+
+
+<img width="1387" height="522" alt="image" src="https://github.com/user-attachments/assets/7e305364-6c4e-4ed6-b51c-32398f066c28" />
+
+
+<img width="1217" height="843" alt="image" src="https://github.com/user-attachments/assets/d4515888-21fa-4cb3-82fa-b3a947fe2805" />
+
+The example workout that we performed is for single layer perceptron. 
+
+If we added even one hidden layer:
+            The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
+
+
+**4. Evaluation Metrics:-**
+
+<img width="1838" height="855" alt="image" src="https://github.com/user-attachments/assets/f9b9fd28-2cc7-44e0-9cc3-09c89fe4ba0b" />
+
+<p></p>
+<p></p>
+ 
+**5. Eigen Value Spectrum**
+
+<img width="1852" height="762" alt="image" src="https://github.com/user-attachments/assets/04335a57-efe6-4920-bc4b-39c52faacd8c" />
+
+
+
 ## Statistics
 - Probability distributions  
 - Conditional probability  
@@ -120,33 +147,3 @@ Outer product:
 Eigenvector:- Special direction that remains unchanged in direction when a linear transformation is applied. Represents a fundamental pattern or axis along which the system behaves consistently.
 
 Eigenvalue:- Scalar that measures how strongly a transformation acts along its corresponding eigenvector. Iindicates the magnitude of scaling or importance of that direction.
-
-## **Other ML Concepts/Workouts/Concept Revision:-**
-
-<img width="1027" height="596" alt="image" src="https://github.com/user-attachments/assets/cad271d6-6e35-42bd-8873-16cd6dc03e79" />
-
-
-<img width="1387" height="522" alt="image" src="https://github.com/user-attachments/assets/7e305364-6c4e-4ed6-b51c-32398f066c28" />
-
-
-<img width="1217" height="843" alt="image" src="https://github.com/user-attachments/assets/d4515888-21fa-4cb3-82fa-b3a947fe2805" />
-
-The example workout that we performed is for single layer perceptron. 
-
-If we added even one hidden layer:
-            The model becomes a multi-layer perceptron (MLP), Can solve XOR, Requires backpropagation, Loses the Perceptron Convergence Theorem guarantee
-
-
-**4. Evaluation Metrics:-**
-
-<img width="1838" height="855" alt="image" src="https://github.com/user-attachments/assets/f9b9fd28-2cc7-44e0-9cc3-09c89fe4ba0b" />
-
-<p></p>
-<p></p>
- 
-**5. Eigen Value Spectrum**
-
-<img width="1852" height="762" alt="image" src="https://github.com/user-attachments/assets/04335a57-efe6-4920-bc4b-39c52faacd8c" />
-
-
-
