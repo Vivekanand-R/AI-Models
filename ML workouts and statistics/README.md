@@ -42,6 +42,12 @@ Statistical Concepts in LSTM, xLSTM, Transformer, TiREX, and Mamba Models:-
 
 <img width="467" height="457" alt="image" src="https://github.com/user-attachments/assets/367fb731-3d5d-454d-9232-ff80b4b89c2f" />
 
+**Entropy:-** Entropy measures the uncertainty or randomness of a single probability distribution. Entropy looks only at the true (or predicted) distribution itself, not at a comparison. {How unsure is this distribution?”}
+
+A uniform distribution → high entropy (very uncertain), A peaked distribution → low entropy (confident)
+
+**Cross-entropy** Cross-entropy measures how far one probability distribution is from another — typically, how well a model’s predictions match the true labels.
+
 
 ## Linear Algebra
 - Basis and change of basis  
