@@ -34,7 +34,12 @@ If we added even one hidden layer:
 - Entropy  
 - Cross-entropy loss  
 - KL-divergence  
-- Sampling & negative sampling  
+- Sampling & negative sampling
+
+Statistical Concepts in LSTM, xLSTM, Transformer, TiREX, and Mamba Models:-
+
+<img width="1357" height="582" alt="image" src="https://github.com/user-attachments/assets/2fd58c59-248a-4bba-a8dd-a2b648f40cb4" />
+
 
 ## Linear Algebra
 - Basis and change of basis  
