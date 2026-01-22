@@ -40,6 +40,8 @@ Statistical Concepts in LSTM, xLSTM, Transformer, TiREX, and Mamba Models:-
 
 <img width="1357" height="582" alt="image" src="https://github.com/user-attachments/assets/2fd58c59-248a-4bba-a8dd-a2b648f40cb4" />
 
+<img width="467" height="457" alt="image" src="https://github.com/user-attachments/assets/367fb731-3d5d-454d-9232-ff80b4b89c2f" />
+
 
 ## Linear Algebra
 - Basis and change of basis  
