@@ -1,184 +1,54 @@
-## **AI-Models and Recommender Systems Lab**
+## **Best Time Series Models**
 
-**Applied Machine Learning, Deep Learning, Time Series, and Intelligent Systems — From Theory to Real-World Use Cases**
 
----
+## 1. TimesFM
 
-## Overview
+TimesFM is a pretrained foundation model for time-series forecasting. The key idea is zero-shot forecasting: you can give it a historical sequence (context), and it produces future values without training a custom model for your dataset. Google Research introduced it as a decoder-only Transformer specialized for time series, and reported that despite being much smaller than large language models—it can achieve near state of the art accuracy on multiple unseen forecasting benchmarks.
 
-This repository is a hands-on research and applied experimentation covering a wide spectrum of **AI / ML / Deep Learning models**, with a strong emphasis on:
+TimesFM aims to reduce that friction:
 
-- Recommender systems  
-- Time series and probabilistic modeling  
-- Deep learning architectures (CNNs, RNNs, Transformers)  
-- Generative models (GANs, Diffusion, VAEs)  
-- Large Language Models and AI agents  
-- Real-world industry case studies (finance, energy, healthcare, life sciences)
+One general model that works across domains and granularities,
 
-The work blends **theoretical foundations**, **implementation**, and **decision-driven experimentation**.
+Zero-shot performance that can be competitive with supervised models trained per dataset,
 
----
+Option to operationalize it as a reusable forecasting component in data platforms (e.g., BigQuery).
 
-## Why This Repository Exists
+**Core capabilities**
 
-Modern AI practitioners are expected to:
-- Understand models **beyond APIs**
-- Reason about **trade-offs and limitations**
-- Apply models to **real-world, noisy, large-scale problems**
-- Connect **math, data, systems, and business impact**
+1) Zero-shot forecasting:- TimesFM is designed to forecast accurately on previously unseen datasets without retraining.
 
-This repository exists to:
-- Explore **how and why models work**
-- Compare architectures across domains
-- Apply models to **real datasets and industries**
-- Build intuition through experimentation
+2) Works across different horizons and granularities: The paper/blog emphasize flexibility across history length, forecast horizon, and time granularity at inference time.
 
----
+3) Univariate forecasting focus:- TimesFM’s common public interface is univariate: you provide one target series (optionally with a frequency indicator), and it predicts future points.
 
-## What This Repository Covers
+**Model architecture (high level)**
 
-Key areas explored include:
+Decoder-only Transformer (time-series specific):- TimesFM is built as a decoder-only Transformer (similar in shape to GPT-style decoders, but trained for numeric sequences).
 
-- Recommender systems (multi-model, hybrid approaches)
-- Time series forecasting and probabilistic models
-- CNN architectures and optimization
-- RNNs, LSTMs, and sequence modeling
-- Graph Neural Networks (GNNs)
-- Generative models (GANs, Diffusion, Autoencoders)
-- Large Language Models (LLMs)
-- AI agents and orchestration frameworks
-- MLOps tools and experiment tracking
-- Industry-focused AI applications
+“Patched” / segment-based processing:- Instead of predicting one point at a time naïvely, TimesFM is described as outputting batches of contiguous time-point segments and using a “patched-decoder style attention” design.
 
----
+Why patching helps: time series can be long; patching/segmenting can reduce effective sequence length and help the model capture multi-scale patterns (trend/seasonality/local fluctuations) more efficiently than raw point-by-point attention.
 
-## Repository Structure
+Training data and scale:- pretraining on roughly O(100B) time points with a ~200M parameter model.
 
-```text
-AI-Models-Recommender-Lab/
-├── README.md                         # Repository overview and philosophy
-├── recommender_systems/              # Multi-model recommendation systems
-├── time_series_models/               # Forecasting and probabilistic models
-├── deep_learning_fundamentals/        # Core DL concepts and architectures
-├── generative_models/                # GANs, Diffusion, Autoencoders
-├── computer_vision/                  # CNNs, AlexNet, vision pipelines
-├── graph_neural_networks/             # GNN models and experiments
-├── large_language_models/             # LLM concepts and notebooks
-├── ai_agents/                        # Agentic AI, LangChain, orchestration
-├── life_sciences/                    # AlphaFold and bioinformatics studies
-├── finance_ai/                       # Market forecasting and indices analysis
-├── experiments/                      # Model diagnostics and comparisons
-├── mlops_tools/                      # TensorBoard, WandB, Grafana, Streamlit
-└── references/                       # PDFs, papers, and learning resources
-```
+
+Datasets:- Google Trends
+
+TimesFM Config:-
+
+<img width="483" height="397" alt="image" src="https://github.com/user-attachments/assets/e241ad7f-bcc2-4258-b183-1e2893405ea4" />
+
+Preditions Results:-
+
+<img width="1037" height="363" alt="image" src="https://github.com/user-attachments/assets/a7244a70-5dc5-4881-a393-012e5611cda6" />
+
+References:-
+
+    1.https://arxiv.org/abs/2310.10688
+    2.https://github.com/google-research/timesfm
+    3.https://huggingface.co/google/timesfm-1.0-200m
+
 
 ---
 
-## Core Model Categories
-
-### Recommender Systems
-- Multi-model recommendation pipelines
-- sequence recommenders
-- Hybrid and ensemble approaches
-- Performance diagnostics and evaluation strategies
-
-### Time Series and Probabilistic Modeling
-- Financial indices forecasting (US, EU, Asia)
-- Weather and environmental modeling
-- External factor integration (macroeconomic, indicators)
-- Evaluation using MSE, MAE, and interpretability
-
-### Deep Learning Architectures
-- CNNs (AlexNet, gradient descent optimization)
-- RNNs and LSTMs for sequential data
-- Graph Neural Networks
-- Optimization and backpropagation analysis
-
-### Generative Models
-- GANs
-- Variational Autoencoders (VAEs)
-- Diffusion models
-- Representation learning and synthesis
-
-### Large Language Models and Agents
-- LLM fundamentals
-- Prompting and system design
-- Agentic frameworks (LangChain, AutoGen, CrewAI, RLlib)
-- Tool use, orchestration, and memory
-
----
-
-## Industry Case Studies
-
-### 1. Financial Markets and Time Series
-- Multi-region index forecasting (SandP 500, NASDAQ, FTSE, Sensex, Nikkei, DAX)
-- Integration of economic indicators
-- Probabilistic graphical modeling approaches
-
-### 2. Energy Analytics
-- Environmental and energy analytics
-- Predictive maintenance
-- Sustainability, carbon reduction, and ROI estimation
-- Integration with IoT and real-time APIs
-
-### 3. Life Sciences and Bioinformatics
-- AlphaFold model versions comparison
-- Basic Protein structure prediction
-- Basic applications in drug discovery and genomics
-
----
-
-## Evaluation and Experimentation Philosophy
-
-Experiments are designed to answer:
-- What works better, and **why**
-- Under what constraints models fail
-- Trade-offs between accuracy, cost, and complexity
-
-Includes:
-- Model diagnostics
-- Performance questionnaires
----
-
-## Tools and MLOps
-
-Explored tools include:
-- TensorBoard
-- Weights and Biases (WandB)
-- Grafana
-- Streamlit
-
-Focus is on **observability, reproducibility, and insight**.
-
----
-
-## Who This Repository Is For
-
-- **AI Leaders**
-- **Applied scientists**
-- **AI / ML engineers/Data scientists**
-- **Researchers**
-- **Product-focused Leaders**
-- **Anyone learning AI**
-
----
-
-## Future Directions
-
-- Advanced recommender system architectures
-- Foundation models for time series
-- Multimodal AI systems
-- Scalable agent-based workflows
-- Industry-grade MLOps pipelines
-
----
-
-## Final Note
-
-This repository treats AI as a **business capability**.
-
-- **Deep understanding of data matters as much as complex algorithms**
-- **Validated experiments drive decisions, to handle assumptions**
-- **Real-world context (cost, risk, scale, regulation), benchmark performance**
-- **Continuous learning enables durable value**
 
