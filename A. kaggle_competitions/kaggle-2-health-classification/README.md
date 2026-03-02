@@ -1,4 +1,4 @@
-# 🫀 Heart Disease MLOps Pipeline
+# Health Classification MLOps Pipeline
 
 ![CI](https://github.com/YOUR_USERNAME/heart-disease-mlops/actions/workflows/ci.yaml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.11-blue)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Raw Data (DVC) → Preprocessing → Model Training (MLflow) → Registry → FastAPI → Docker
@@ -20,7 +20,7 @@ Raw Data (DVC) → Preprocessing → Model Training (MLflow) → Registry → Fa
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 heart-disease-mlops/
@@ -53,7 +53,7 @@ heart-disease-mlops/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 ```bash
@@ -119,7 +119,7 @@ docker compose up
 
 ---
 
-## 📬 API Usage
+## API Usage
 
 ```bash
 curl -X POST "http://localhost:8000/predict" \
@@ -138,7 +138,7 @@ Response:
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 ```bash
 make test
 ```
@@ -146,7 +146,7 @@ make test
 ---
 
 ## 📦 Data Source
-[UCI Heart Disease Dataset](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data) — 14 clinical features across 920 patients from 4 institutions.
+[UCI Heart Disease Dataset](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data) — 14 clinical features across 920 ids from 4 institutions.
 
 ---
 
