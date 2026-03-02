@@ -1,1 +1,12 @@
 
+### To solve and host few kaggle challeges and latest models
+
+### License
+
+This project is released under the MIT License. The competition dataset is provided by Kaggle under: Attribution 4.0 International (CC BY 4.0)
+
+### References
+
+    Kaggle Playground Series (2026)
+    LightGBM Documentation: https://lightgbm.readthedocs.io/
+    ROC-AUC Theory: Fawcett, T. (2006). An introduction to ROC analysis.
