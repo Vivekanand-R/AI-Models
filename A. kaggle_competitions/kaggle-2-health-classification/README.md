@@ -145,10 +145,12 @@ make test
 
 ---
 
-## 📦 Data Source
-[UCI Heart Disease Dataset](https://www.kaggle.com/datasets/redwankarimsony/heart-disease-data) — 14 clinical features across 920 ids from 4 institutions.
+## Data Source
+Kaggle - 14 clinical features across 920 ids from 4 institutions.
+
+## License
+
+This project is released under the MIT License. The competition dataset is provided by Kaggle under: Attribution 4.0 International (CC BY 4.0)
 
 ---
 
-## 👤 Author
-Built as an MLOps portfolio project demonstrating production-grade ML practices.
