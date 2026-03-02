@@ -97,11 +97,14 @@ docker compose up
 
 ## 📊 Results
 
+<img width="1435" height="111" alt="image" src="https://github.com/user-attachments/assets/53be7380-3ec7-4b5e-96cb-6cfc04c6f002" />
+
+
 | Model | ROC-AUC | F1 Score | Accuracy |
 |---|---|---|---|
-| Logistic Regression | 0.89 | 0.84 | 0.83 |
-| Random Forest | 0.93 | 0.88 | 0.87 |
-| XGBoost | **0.94** | **0.90** | **0.89** |
+| Logistic Regression | - | - | - |
+| Random Forest | - | - | - |
+| XGBoost | - | - | - |
 
 ---
 
