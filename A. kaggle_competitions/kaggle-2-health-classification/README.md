@@ -95,16 +95,20 @@ docker compose up
 
 ---
 
-## 📊 Results
+## Results
+
 
 <img width="1435" height="111" alt="image" src="https://github.com/user-attachments/assets/53be7380-3ec7-4b5e-96cb-6cfc04c6f002" />
 
 
+## For Multi-Model Comparisions:- 
+
+
 | Model | ROC-AUC | F1 Score | Accuracy |
 |---|---|---|---|
-| Logistic Regression | - | - | - |
-| Random Forest | - | - | - |
-| XGBoost | - | - | - |
+| LightGBM | 0.6966 | tba | tba |
+| Logistic Regression | tba | tba | tba |
+| Random Forest | tba | tba | tba |
 
 ---
 
