@@ -34,8 +34,8 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
 
 ## Notes
 
-This repo is intentionally minimal and laptop-friendly. Extend it with:
+This repo is intentionally minimal and lightweight execution friendly. Extend it with:
 - Hybrid retrieval (BM25 + vectors)
 - Reranking
 - Eval harness + prompt regression tests
-- Proper MCP protocol bindings (depending on your MCP host)
+- Proper MCP protocol bindings (depending on MCP host)
