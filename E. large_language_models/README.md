@@ -13,8 +13,6 @@ Tokens beyond N are dropped or require techniques like sliding windows, chunking
 
 <img width="478" height="327" alt="image" src="https://github.com/user-attachments/assets/2adad8cc-96b2-48f6-b68d-bac6ee429162" />
 
-**Normally:-**
-
     4K → short conversations (~3 pages)
     32K → long docs (~20 pages)
     128K → books / codebases
