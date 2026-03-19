@@ -33,7 +33,7 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
   - `POST /tools/search_documents`
 
 
-## Working Steps
+##  RAG Flow
 
       1. src/rag/ingest.py → reads files from data/ folder
       2. It uses iter_text_files() → finds .txt and .md files
@@ -45,6 +45,15 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
       8. Stored location → CHROMA_DIR=/app/.chroma inside container
       9. Format → NOT files → stored as vector embeddings + metadata + text
       10. Each chunk = {id, text, embedding, metadata} in ChromaDB
+
+
+# Hosting
+
+1. Local Hosting, 2. Cloud Hosting
+
+1.Local Hosting
+
+   <img width="1767" height="417" alt="image" src="https://github.com/user-attachments/assets/a4be81e1-1618-4f23-9ee5-7b7b09dc9823" />
 
 
 ## Notes
