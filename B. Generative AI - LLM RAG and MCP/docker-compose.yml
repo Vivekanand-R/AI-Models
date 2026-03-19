@@ -1,5 +1,6 @@
 services:
   app:
+    image: llm-mcp-rag-assistant:latest
     build:
       context: .
       dockerfile: docker/Dockerfile
@@ -9,25 +10,23 @@ services:
       - "8000:8000"
     volumes:
       - ./data:/app/data
-      - chroma_data:/app/.chroma
+      - ./chroma:/app/.chroma
     depends_on:
-      - mcp-server
       - ollama
+    command: ["uvicorn", "src.api.app:app", "--host", "0.0.0.0", "--port", "8000"]
 
   mcp-server:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile
-    command: ["python", "-m", "src.mcp_server.server"]
+    image: llm-mcp-rag-assistant:latest
     env_file:
       - .env
     ports:
       - "8765:8765"
     volumes:
       - ./data:/app/data
-      - chroma_data:/app/.chroma
+      - ./chroma:/app/.chroma
     depends_on:
       - ollama
+    command: ["python", "-m", "src.mcp_server.server"]
 
   ollama:
     image: ollama/ollama:latest

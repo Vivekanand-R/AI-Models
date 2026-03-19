@@ -6,3 +6,5 @@ This repository demonstrates Retrieval-Augmented Generation (RAG) with:
 - A minimal MCP tool server for retrieval
 
 Citations are returned as source + chunk ids.
+
+

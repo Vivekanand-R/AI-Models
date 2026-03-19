@@ -1,34 +1,44 @@
 from __future__ import annotations
 
-import chromadb
-from sentence_transformers import SentenceTransformer
+from src.rag.ingest import _collection, _embed
+from src.rag.settings import settings
 
-from .settings import settings
 
-_client = chromadb.PersistentClient(path=settings.chroma_dir)
-_collection = _client.get_or_create_collection(settings.chroma_collection)
-_embedder = SentenceTransformer(settings.embedding_model)
-
-def retrieve(query: str, top_k: int | None = None) -> list[dict]:
+def retrieve(question: str, top_k: int | None = None) -> list[dict]:
     k = top_k or settings.top_k
-    q_emb = _embedder.encode([query], normalize_embeddings=True).tolist()[0]
+
     res = _collection.query(
-        query_embeddings=[q_emb],
+        query_embeddings=[_embed(question)],
         n_results=k,
-        include=["documents", "metadatas", "distances", "ids"],
+        include=["documents", "metadatas", "distances"],
     )
 
-    out: list[dict] = []
-    for i in range(len(res["ids"][0])):
-        out.append({
-            "id": res["ids"][0][i],
-            "text": res["documents"][0][i],
-            "metadata": res["metadatas"][0][i],
-            "distance": res["distances"][0][i],
-        })
-    return out
+    docs = res.get("documents", [[]])[0]
+    metas = res.get("metadatas", [[]])[0]
+    dists = res.get("distances", [[]])[0]
+    ids = res.get("ids", [[]])[0] if "ids" in res else [None] * len(docs)
 
-def list_sources(limit: int = 50) -> list[str]:
-    res = _collection.get(include=["metadatas"], limit=limit)
-    sources = sorted({m.get("source", "unknown") for m in res.get("metadatas", [])})
+    return [
+        {
+            "id": ids[i],
+            "text": docs[i],
+            "metadata": metas[i] if i < len(metas) else {},
+            "distance": dists[i] if i < len(dists) else None,
+        }
+        for i in range(len(docs))
+    ]
+
+
+def list_sources() -> list[str]:
+    data = _collection.get(include=["metadatas"])
+    metadatas = data.get("metadatas", []) or []
+
+    sources = sorted(
+        {
+            meta.get("source")
+            for meta in metadatas
+            if isinstance(meta, dict) and meta.get("source")
+        }
+    )
+
     return sources
