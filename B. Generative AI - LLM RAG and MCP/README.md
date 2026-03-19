@@ -56,6 +56,44 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
    <img width="1767" height="417" alt="image" src="https://github.com/user-attachments/assets/a4be81e1-1618-4f23-9ee5-7b7b09dc9823" />
 
 
+# Evaluation Metrics
+
+1. Hallucination Rate (Groundedness) – % of claims not supported by retrieved context → measured via claim verification or LLM judge
+
+2. Answer Accuracy (EM/F1/LLM score) – correctness vs ground truth → exact match, F1, or model-based scoring
+
+3. Retrieval Recall@k – whether relevant documents are retrieved → relevant_docs_retrieved / total_relevant_docs
+
+4. Citation Accuracy (Attribution Score) – correctness of source references → correct_citations / total_citations
+
+5. Latency (P95/P99) – tail response time → 95th/99th percentile of response time
+
+6. Failure Rate (Error Rate) – % failed or empty responses → failures / total_requests
+
+7. Throughput (RPS) – system capacity → requests per second
+
+8. Cost per Request – token + compute cost → (input + output tokens) × cost/token
+
+9. Context Efficiency (Utilization Ratio) – useful vs total context → relevant_tokens / total_context_tokens
+
+10. User Satisfaction (Engagement Metrics) – user behavior signals → like/dislike rate, retries, drop-offs
+
+## Additional Metrics:-
+
+        1. Total response time
+        2. LLM inference time
+        3. Retrieval time
+        4. Embedding time
+        5. Tokens in prompt
+        6. Tokens in output
+        7. Chunks retrieved
+        8. Average chunk relevance score / distance
+        9. Context length used
+        10. Answer confidence proxy (based on retrieval similarity / citations coverage)
+
+
+
+
 ## Notes
 
 This repo is intentionally minimal and lightweight execution friendly. Further to be extended with:
