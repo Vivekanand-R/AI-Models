@@ -33,6 +33,12 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
   - `POST /tools/search_documents`
 
 
+## Architecture
+
+<img width="338" height="767" alt="image" src="https://github.com/user-attachments/assets/701b8e62-5611-4a22-a83e-6c7e027213ad" />
+
+
+
 ##  RAG Flow
 
       1. src/rag/ingest.py → reads files from data/ folder
