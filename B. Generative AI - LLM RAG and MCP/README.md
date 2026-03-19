@@ -32,6 +32,21 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
   - `GET /tools/list_sources`
   - `POST /tools/search_documents`
 
+
+## Working Steps
+
+      1. src/rag/ingest.py → reads files from data/ folder
+      2. It uses iter_text_files() → finds .txt and .md files
+      3. Then read_text() → loads file content
+      4. Then simple_chunk() (chunking.py) → splits text into chunks
+      5. Then embeddings are created using SentenceTransformer
+      6. Finally stored in ChromaDB collection (vector database)
+      7. If data/ is empty → nothing is ingested → retrieval returns empty → LLM gets no context
+      8. Stored location → CHROMA_DIR=/app/.chroma inside container
+      9. Format → NOT files → stored as vector embeddings + metadata + text
+      10. Each chunk = {id, text, embedding, metadata} in ChromaDB
+
+
 ## Notes
 
 This repo is intentionally minimal and lightweight execution friendly. Further to be extended with:
