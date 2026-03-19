@@ -5,6 +5,7 @@ Local-first RAG with:
 - Chroma vector store
 - MCP-style tool server exposing retrieval tools
 - FastAPI `/ask` endpoint returning answers with citations
+- phi3:mini 
 
 ## Quickstart
 
