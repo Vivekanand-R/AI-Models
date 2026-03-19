@@ -56,6 +56,23 @@ curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"
    <img width="1767" height="417" alt="image" src="https://github.com/user-attachments/assets/a4be81e1-1618-4f23-9ee5-7b7b09dc9823" />
 
 
+   While Running:-
+
+   <img width="1277" height="883" alt="image" src="https://github.com/user-attachments/assets/087a28e9-14a0-41d9-8082-7f49d62369b6" />
+
+
+   Question 1:-
+   
+<img width="732" height="111" alt="image" src="https://github.com/user-attachments/assets/b806037e-95c0-49a0-8b6d-d9553ec437f9" />
+
+
+   Response 1:-
+
+   <img width="1742" height="762" alt="image" src="https://github.com/user-attachments/assets/0986a709-9f60-46a4-a6ef-47162d290bac" />
+
+
+
+
 # Evaluation Metrics
 
 1. Hallucination Rate (Groundedness) – % of claims not supported by retrieved context → measured via claim verification or LLM judge
