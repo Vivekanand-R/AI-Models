@@ -1,10 +1,11 @@
 # MCP-RAG Assistant (Containerized)
 
-Local-first RAG with:
+Local RAG with:
 - Ollama (Llama 3.1 8B)
 - Chroma vector store
 - MCP-style tool server exposing retrieval tools
 - FastAPI `/ask` endpoint returning answers with citations
+- phi3:mini 
 
 ## Quickstart
 
