@@ -90,9 +90,55 @@ Production-grade, scalable stacks designed for enterprise and high-performance e
                 Binary (1-bit) – Weights as 0/1 (very aggressive compression)
                 Ternary (2-bit) – Values like {-1, 0, 1}
                 Mixed Precision (FP16 + INT8) – Combination for performance optimization
+
+        FP32 provides full precision (e.g., 3.14159265), while FP16 (3.14) and BF16 (3.1) reduce precision to improve speed and efficiency, commonly used on GPUs and during training. 
+        Quantized formats like INT8 (127, -45), INT4 (7, -3), and INT2 (1, 0) compress models by limiting value ranges, with UINT8 (0–255) used for unsigned data in hardware accelerators. 
+        Extreme compression includes Binary (0/1) and Ternary (-1, 0, 1), while Mixed Precision combines formats (e.g., weights in INT8 = 45, activations in FP16 = 3.14) for balanced performance.
                 
         2. Pruning → Removes unnecessary weights or neurons
         3. Model Distillation → Transfers knowledge from a large model to a smaller one.
+
+
+
+# Vector Database:-
+
+1. In **Pinecone**, each record must have an ID and a vector and can also attach metadata for filtering. Metadata keys are strings, and values can be strings, numbers, booleans, or lists of strings.
+
+
+**JSON:-**
+{
+  "id": "doc_101_chunk_03",
+  "values": [0.021, -0.118, 0.442, 0.009, -0.331],
+  "metadata": {
+    "document_id": "doc_101",
+    "chunk_id": 3,
+    "title": "Azure Enterprise Agent Design",
+    "source": "sharepoint",
+    "department": "architecture",
+    "created_at": "2026-03-20",
+    "tags": ["azure", "mcp", "rac"],
+    "is_active": true
+  }
+}
+
+2. **FAISS** is not really a full database like Pinecone. It is a similarity search library for dense vectors, so usually keep:
+
+vectors in a FAISS index, IDs in the index or an ID map, metadata/text in a separate store such as SQLite, Postgres, or a document store.
+
+**FAISS index side:-**
+
+faiss_index = {
+  "dimension": 768,
+  "index_type": "IndexIVFFlat",
+  "metric": "cosine_or_l2",
+  "vectors": [
+    {"faiss_id": 1001, "embedding": [0.021, -0.118, 0.442, 0.009, -0.331]},
+    {"faiss_id": 1002, "embedding": [0.155, -0.084, 0.391, 0.013, -0.210]}
+  ]
+}
+
+
+
 
 
 
