@@ -60,7 +60,39 @@ Production-grade, scalable stacks designed for enterprise and high-performance e
         14. Shadow Deployment: Running a new model alongside the existing one without affecting users to evaluate performance.
         15. Infrastructure as Code (IaC): Managing infrastructure (compute, storage, pipelines) using code (e.g., Terraform).
         16. Security & Access Control: Managing permissions, and secure data/model access across systems.
+        17. Model Registry:- Stores, versions, and manages models across environments
 
+**Model Optimization:-**
+
+        1. Quantization → Reduces precision (e.g., FP32 → INT8) to improve speed and reduce memory
+
+                **Types:-**
+                Post-Training Quantization (PTQ) – applied after training, no retraining needed
+                Quantization-Aware Training (QAT) – simulated during training for better accuracy
+                Dynamic Quantization – quantizes weights, activations at runtime
+                Static Quantization – quantizes weights + activations using calibration data
+                Weight-only Quantization – compresses only model weights
+                Integer Quantization (INT8/INT4) – reduces precision for efficiency
+                Float Quantization (FP16/BF16) – lower precision floating-point
+                Per-Tensor Quantization – single scale for entire tensor
+                Per-Channel Quantization – different scales per channel (more accurate)
+                LLM-specific (GPTQ, AWQ, SmoothQuant) – optimized for large language models
+
+
+                **Formats**
+                FP32 (Float32) – Full precision (baseline, no quantization)
+                FP16 (Float16) – Half precision, widely used on GPUs
+                BF16 (BFloat16) – Better range than FP16, used in training
+                INT8 – Most common quantized format (good balance of speed & accuracy)
+                INT4 – Lower precision, high compression (used in LLMs)
+                INT2 – Extremely compressed, experimental
+                UINT8 – Unsigned 8-bit (used in some hardware accelerators)
+                Binary (1-bit) – Weights as 0/1 (very aggressive compression)
+                Ternary (2-bit) – Values like {-1, 0, 1}
+                Mixed Precision (FP16 + INT8) – Combination for performance optimization
+                
+        2. Pruning → Removes unnecessary weights or neurons
+        3. Model Distillation → Transfers knowledge from a large model to a smaller one.
 
 
 
