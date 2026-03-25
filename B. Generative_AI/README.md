@@ -42,6 +42,24 @@ Production-grade, scalable stacks designed for enterprise and high-performance e
 3. Aamazon Web Server Focused Enterprise Agent:- An enterprise agent built on MCP, PPM, and RAC can deliver real-time decision intelligence on AWS by combining structured data in Amazon Aurora/RDS or Amazon Redshift with unstructured enterprise knowledge retrieved through Amazon Bedrock knowledge capabilities and Amazon OpenSearch Service for hybrid and vector search. It can access internal documents from Amazon S3, SharePoint, or OneDrive through MCP-style connectors, enrich context with external web and business APIs, and use Python-based code execution plus orchestration through AWS Step Functions, Lambda, or SageMaker for multi-step reasoning and execution. Scheduling can be handled through Amazon EventBridge for event-driven triggers and time-based automation, while MLOps is supported through model lifecycle management, pipelines, monitoring, logging, and policy enforcement across the stack. The agent closes the loop through action tools such as Teams or Slack notifications, email automation via Amazon SES, and downstream business APIs for fully autonomous enterprise workflows.
 
 
+**MLOps:-**
+
+        1. Data Versioning: Tracking changes in datasets over time to ensure reproducibility and consistency across experiments.
+        2. Model Versioning: Managing different versions of models (training runs, hyperparameters, artifacts) for traceability and rollback.
+        3. Experiment Tracking: Logging metrics, parameters, and results of experiments using tools like MLflow to compare performance.
+        4. CI/CD for ML: Automating the build, test, and deployment of ML pipelines and models using tools like GitHub Actions or Jenkins.
+        5. Feature Engineering & Feature Store: Creating, storing, and serving features consistently for both training and inference.
+        6. Pipeline Orchestration: Automating workflows (data ingestion → training → deployment) using tools like Apache Airflow or Kubeflow.
+        7. Model Deployment: Serving models via APIs, batch jobs, or streaming systems using scalable infrastructure.
+        8. Monitoring & Observability: Tracking model performance, latency, drift, and failures in production.
+        9. Model Drift & Data Drift Detection: Identifying when model accuracy degrades due to changing data distributions.
+        10. Governance & Compliance: Ensuring models follow policies, explainability, security, and regulatory requirements.
+        11. Automated Retraining: Triggering model retraining based on drift, performance drop, or scheduled intervals.
+        12. Feature Drift Monitoring: Tracking changes in input feature distributions over time.
+        13. Canary Deployment: Gradually rolling out a new model to a small subset of users before full deployment.
+        14. Shadow Deployment: Running a new model alongside the existing one without affecting users to evaluate performance.
+        15. Infrastructure as Code (IaC): Managing infrastructure (compute, storage, pipelines) using code (e.g., Terraform).
+        16. Security & Access Control: Managing permissions, secrets, and secure data/model access across systems.
 
 
 
