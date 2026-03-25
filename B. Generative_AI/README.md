@@ -59,7 +59,7 @@ Production-grade, scalable stacks designed for enterprise and high-performance e
         13. Canary Deployment: Gradually rolling out a new model to a small subset of users before full deployment.
         14. Shadow Deployment: Running a new model alongside the existing one without affecting users to evaluate performance.
         15. Infrastructure as Code (IaC): Managing infrastructure (compute, storage, pipelines) using code (e.g., Terraform).
-        16. Security & Access Control: Managing permissions, secrets, and secure data/model access across systems.
+        16. Security & Access Control: Managing permissions, and secure data/model access across systems.
 
 
 
