@@ -19,13 +19,13 @@ python -m pip install -r requirements.txt
 python -m src.train --config configs/config.yaml
 ```
 
-## Predict
+## Predict:-
 
 ```powershell
 python -m src.predict --config configs/config.yaml
 ```
 
-## Outputs
+## Outputs:-
 
 - Fine-tuned model: `artifacts/deberta_v3_base/`
 - Metrics: `artifacts/metrics.yaml`
