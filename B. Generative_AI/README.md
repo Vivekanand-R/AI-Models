@@ -138,7 +138,18 @@ faiss_index = {
 }
 
 
+**Factors:**
 
+1. Non-deterministic Planning vs Deterministic Execution (outputs vary due to sampling (temperature, top-p, nucleus sampling)
+2. Tool Invocation Failures (Schema + Parsing), repair prompts
+3. State Persistence & Checkpointing (event sourcing)
+4. Context Packing & Token Optimization
+5. RAG Retrieval Failure Modes
+6. Async Orchestration & Workflow Control (Async frameworks (asyncio, futures), DAG execution engines (LangGraph-style), Retry strategies:exponential backoff, circuit breakers, Task queues (Celery, Kafka))
+7. Evaluation (Evals) Complexity
+8. Latency Explosion (Cache embeddings)
+9. Secure Code Execution (Sandboxing)
+10. Observability & Debugging
 
 
 
