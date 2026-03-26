@@ -1,126 +1,156 @@
-# MCP-RAG Assistant (Containerized)
+# Generative AI, LLM and MLops Concepts
 
-Local-first RAG with:
-- Ollama (Llama 3.1 8B)
-- Chroma vector store
-- MCP-style tool server exposing retrieval tools
-- FastAPI `/ask` endpoint returning answers with citations
+This repository is structured with the goal of building a Model-as-a-Service (MaaS) ecosystem. It serves as a comprehensive playground for experimenting, designing, and comparing modern AI/ML architectures.
 
-## Quickstart
+    A. Model Experiments
+    B. MLops Architectures
+    C. Architecture Scinarios
+    D. Core Concepts & framworks
+    E. Architecture Comparisions
 
-```bash
-cp .env.example .env
-docker compose up --build -d
+**LLM-MCP Combinatory Stacks:**
 
-# First time only: pull the model inside the ollama container
-docker compose exec ollama ollama pull llama3.1:8b
+A curated collection of modern LLM pipelines integrating orchestration frameworks, vector databases, and MCP (Model Context Protocol):
 
-# Ingest sample docs into Chroma
-docker compose exec app bash -lc "./scripts/ingest_sample.sh"
-```
+      1. GPT-4o + OpenAI API + LangChain + Pinecone + MCP
+      2. Claude 3.5 Sonnet + Anthropic API + LangGraph + Weaviate + MCP
+      3. Gemini 1.5 Pro + Vertex AI + BigQuery + MCP
+      4. GPT-4 / Phi + Azure OpenAI Service + Azure Cognitive Search + LangChain
+      5. Llama 3 70B + vLLM + Milvus + MCP
+      6. Phi-3 Mini + Ollama + Chroma + MCP
+      7. Mistral 7B + Ollama + Open WebUI + Chroma + MCP
+      8. Llama 3 8B + LM Studio + LlamaIndex
+      9. Mistral / Phi + llama.cpp + AutoGen + Chroma + MCP
+      10. TinyLlama + llama.cpp + FAISS + Haystack
 
-Ask a question:
-```bash
-curl -s http://localhost:8000/ask   -H "Content-Type: application/json"   -d '{"question":"What does this repo demonstrate?"}'
-```
+**Enterprise / GPU cluster oriented:-**
 
-## Services
+Production-grade, scalable stacks designed for enterprise and high-performance environments:
 
-- **app** (FastAPI): `http://localhost:8000`
-  - `POST /ask`
-- **mcp-server** (tool server): `http://localhost:8765`
-  - `GET /tools/list_sources`
-  - `POST /tools/search_documents`
-
-
-## Architecture
-
-<img width="338" height="767" alt="image" src="https://github.com/user-attachments/assets/701b8e62-5611-4a22-a83e-6c7e027213ad" />
+    1. Nemotron + NVIDIA Triton + NeMo + Vector DB + MCP (NVIDIA Stack)
+    2. Llama 3 70B + vLLM + Ray Serve + Milvus + MCP (Meta Enterprise Stack)
+    3. GPT-4o + Azure OpenAI Service + Azure Kubernetes Service + Azure Cognitive Search + MCP (OpenAI Enterprise-style Stack)
+    4. Gemini 1.5 Pro + Vertex AI + Kubernetes + BigQuery + MCP (Google Deep Enterprise Stack)
 
 
+**Architectural Scinarios**
 
-##  RAG Flow
+1. Azure Focused Enterprise Agent:- An enterprise agent built on MCP, PPM, and RAC enables real-time decision-making by integrating structured data from Azure SQL Database and unstructured knowledge indexed in Azure AI Search. It accesses internal documents from SharePoint and OneDrive via MCP connectors, while enriching context through external APIs. Retrieval pipelines combine hybrid and vector search using embeddings stored in Pinecone. Orchestration and execution are handled by Azure Machine Learning with Python-based tools, governed by policy and planning layers. Workflows are triggered via event-driven systems (Event Grid/Service Bus) or scheduled pipelines (Azure ML/ADF), with full MLOps support including CI/CD, model versioning, and monitoring. The agent completes actions through Teams notifications, email automation, and enterprise APIs, enabling end-to-end autonomous operations.
+    
+2. GCP Focused Enterprise Agent:- An enterprise agent leveraging MCP, PPM, and RAC delivers intelligent automation by connecting structured data from BigQuery and unstructured knowledge through Vertex AI Search. It ingests enterprise content from Google Drive and Google Docs via MCP connectors, while integrating external APIs for dynamic context. RAC pipelines utilize embeddings and semantic retrieval powered by Vertex AI with vector storage options like AlloyDB. Execution and orchestration are managed through Vertex AI with Python-based tools, guided by planning and governance policies. Scheduling is handled via Pub/Sub (event-driven) and Cloud Scheduler/Vertex Pipelines (batch), with MLOps capabilities including CI/CD, model registry, monitoring, and scalable data pipelines. The agent closes the loop Google Chat, Gmail automation, and external APIs for fully autonomous enterprise workflows.
 
-      1. src/rag/ingest.py → reads files from data/ folder
-      2. It uses iter_text_files() → finds .txt and .md files
-      3. Then read_text() → loads file content
-      4. Then simple_chunk() (chunking.py) → splits text into chunks
-      5. Then embeddings are created using SentenceTransformer
-      6. Finally stored in ChromaDB collection (vector database)
-      7. If data/ is empty → nothing is ingested → retrieval returns empty → LLM gets no context
-      8. Stored location → CHROMA_DIR=/app/.chroma inside container
-      9. Format → NOT files → stored as vector embeddings + metadata + text
-      10. Each chunk = {id, text, embedding, metadata} in ChromaDB
+3. AWS Focused Enterprise Agent:- An enterprise agent built on MCP, PPM, and RAC can deliver real-time decision intelligence on AWS by combining structured data in Amazon Aurora/RDS or Amazon Redshift with unstructured enterprise knowledge retrieved through Amazon Bedrock knowledge capabilities and Amazon OpenSearch Service for hybrid and vector search. It can access internal documents from Amazon S3, SharePoint, or OneDrive through MCP-style connectors, enrich context with external web and business APIs, and use Python-based code execution plus orchestration through AWS Step Functions, Lambda, or SageMaker for multi-step reasoning and execution. Scheduling can be handled through Amazon EventBridge for event-driven triggers and time-based automation, while MLOps is supported through model lifecycle management, pipelines, monitoring, logging, and policy enforcement across the stack. The agent closes the loop through action tools such as Teams or Slack notifications, email automation via Amazon SES, and downstream business APIs for fully autonomous enterprise workflows.
 
 
-# Hosting
+**MLOps:-**
 
-1. Local Hosting, 2. Cloud Hosting
+        1. Data Versioning: Tracking changes in datasets over time to ensure reproducibility and consistency across experiments.
+        2. Model Versioning: Managing different versions of models (training runs, hyperparameters, artifacts) for traceability and rollback.
+        3. Experiment Tracking: Logging metrics, parameters, and results of experiments using tools like MLflow to compare performance.
+        4. CI/CD for ML: Automating the build, test, and deployment of ML pipelines and models using tools like GitHub Actions or Jenkins.
+        5. Feature Engineering & Feature Store: Creating, storing, and serving features consistently for both training and inference.
+        6. Pipeline Orchestration: Automating workflows (data ingestion → training → deployment) using tools like Apache Airflow or Kubeflow.
+        7. Model Deployment: Serving models via APIs, batch jobs, or streaming systems using scalable infrastructure.
+        8. Monitoring & Observability: Tracking model performance, latency, drift, and failures in production.
+        9. Model Drift & Data Drift Detection: Identifying when model accuracy degrades due to changing data distributions.
+        10. Governance & Compliance: Ensuring models follow policies, explainability, security, and regulatory requirements.
+        11. Automated Retraining: Triggering model retraining based on drift, performance drop, or scheduled intervals.
+        12. Feature Drift Monitoring: Tracking changes in input feature distributions over time.
+        13. Canary Deployment: Gradually rolling out a new model to a small subset of users before full deployment.
+        14. Shadow Deployment: Running a new model alongside the existing one without affecting users to evaluate performance.
+        15. Infrastructure as Code (IaC): Managing infrastructure (compute, storage, pipelines) using code (e.g., Terraform).
+        16. Security & Access Control: Managing permissions, and secure data/model access across systems.
+        17. Model Registry:- Stores, versions, and manages models across environments
 
-1.Local Hosting
+**Model Optimization:-**
 
-   <img width="1767" height="417" alt="image" src="https://github.com/user-attachments/assets/a4be81e1-1618-4f23-9ee5-7b7b09dc9823" />
+        1. Quantization → Reduces precision (e.g., FP32 → INT8) to improve speed and reduce memory
 
-
-   While Running:-
-
-   <img width="1277" height="883" alt="image" src="https://github.com/user-attachments/assets/087a28e9-14a0-41d9-8082-7f49d62369b6" />
-
-
-   Question 1:-
-   
-<img width="732" height="111" alt="image" src="https://github.com/user-attachments/assets/b806037e-95c0-49a0-8b6d-d9553ec437f9" />
-
-
-   Response 1:-
-
-   <img width="1742" height="762" alt="image" src="https://github.com/user-attachments/assets/0986a709-9f60-46a4-a6ef-47162d290bac" />
+                **Types:-**
+                Post-Training Quantization (PTQ) – applied after training, no retraining needed
+                Quantization-Aware Training (QAT) – simulated during training for better accuracy
+                Dynamic Quantization – quantizes weights, activations at runtime
+                Static Quantization – quantizes weights + activations using calibration data
+                Weight-only Quantization – compresses only model weights
+                Integer Quantization (INT8/INT4) – reduces precision for efficiency
+                Float Quantization (FP16/BF16) – lower precision floating-point
+                Per-Tensor Quantization – single scale for entire tensor
+                Per-Channel Quantization – different scales per channel (more accurate)
+                LLM-specific (GPTQ, AWQ, SmoothQuant) – optimized for large language models
 
 
+                **Formats**
+                FP32 (Float32) – Full precision (baseline, no quantization)
+                FP16 (Float16) – Half precision, widely used on GPUs
+                BF16 (BFloat16) – Better range than FP16, used in training
+                INT8 – Most common quantized format (good balance of speed & accuracy)
+                INT4 – Lower precision, high compression (used in LLMs)
+                INT2 – Extremely compressed, experimental
+                UINT8 – Unsigned 8-bit (used in some hardware accelerators)
+                Binary (1-bit) – Weights as 0/1 (very aggressive compression)
+                Ternary (2-bit) – Values like {-1, 0, 1}
+                Mixed Precision (FP16 + INT8) – Combination for performance optimization
 
-
-# Evaluation Metrics
-
-1. Hallucination Rate (Groundedness) – % of claims not supported by retrieved context → measured via claim verification or LLM judge
-
-2. Answer Accuracy (EM/F1/LLM score) – correctness vs ground truth → exact match, F1, or model-based scoring
-
-3. Retrieval Recall@k – whether relevant documents are retrieved → relevant_docs_retrieved / total_relevant_docs
-
-4. Citation Accuracy (Attribution Score) – correctness of source references → correct_citations / total_citations
-
-5. Latency (P95/P99) – tail response time → 95th/99th percentile of response time
-
-6. Failure Rate (Error Rate) – % failed or empty responses → failures / total_requests
-
-7. Throughput (RPS) – system capacity → requests per second
-
-8. Cost per Request – token + compute cost → (input + output tokens) × cost/token
-
-9. Context Efficiency (Utilization Ratio) – useful vs total context → relevant_tokens / total_context_tokens
-
-10. User Satisfaction (Engagement Metrics) – user behavior signals → like/dislike rate, retries, drop-offs
-
-## Additional Metrics:-
-
-        1. Total response time
-        2. LLM inference time
-        3. Retrieval time
-        4. Embedding time
-        5. Tokens in prompt
-        6. Tokens in output
-        7. Chunks retrieved
-        8. Average chunk relevance score / distance
-        9. Context length used
-        10. Answer confidence proxy (based on retrieval similarity / citations coverage)
+        FP32 provides full precision (e.g., 3.14159265), while FP16 (3.14) and BF16 (3.1) reduce precision to improve speed and efficiency, commonly used on GPUs and during training. 
+        Quantized formats like INT8 (127, -45), INT4 (7, -3), and INT2 (1, 0) compress models by limiting value ranges, with UINT8 (0–255) used for unsigned data in hardware accelerators. 
+        Extreme compression includes Binary (0/1) and Ternary (-1, 0, 1), while Mixed Precision combines formats (e.g., weights in INT8 = 45, activations in FP16 = 3.14) for balanced performance.
+                
+        2. Pruning → Removes unnecessary weights or neurons
+        3. Model Distillation → Transfers knowledge from a large model to a smaller one.
 
 
 
+# Vector Database:-
 
-## Notes
+1. In **Pinecone**, each record must have an ID and a vector and can also attach metadata for filtering. Metadata keys are strings, and values can be strings, numbers, booleans, or lists of strings.
 
-This repo is intentionally minimal and lightweight execution friendly. Further to be extended with:
-- Hybrid retrieval (BM25 + vectors)
-- Reranking
-- Eval harness + prompt regression tests
-- Proper MCP protocol bindings (depending on MCP host)
+
+**JSON:-**
+{
+  "id": "doc_101_chunk_03",
+  "values": [0.021, -0.118, 0.442, 0.009, -0.331],
+  "metadata": {
+    "document_id": "doc_101",
+    "chunk_id": 3,
+    "title": "Azure Enterprise Agent Design",
+    "source": "sharepoint",
+    "department": "architecture",
+    "created_at": "2026-03-20",
+    "tags": ["azure", "mcp", "rac"],
+    "is_active": true
+  }
+}
+
+2. **FAISS** is not really a full database like Pinecone. It is a similarity search library for dense vectors, so usually keep:
+
+vectors in a FAISS index, IDs in the index or an ID map, metadata/text in a separate store such as SQLite, Postgres, or a document store.
+
+**FAISS index side:-**
+
+faiss_index = {
+  "dimension": 768,
+  "index_type": "IndexIVFFlat",
+  "metric": "cosine_or_l2",
+  "vectors": [
+    {"faiss_id": 1001, "embedding": [0.021, -0.118, 0.442, 0.009, -0.331]},
+    {"faiss_id": 1002, "embedding": [0.155, -0.084, 0.391, 0.013, -0.210]}
+  ]
+}
+
+
+**Factors:**
+
+1. Non-deterministic Planning vs Deterministic Execution (outputs vary due to sampling (temperature, top-p, nucleus sampling)
+2. Tool Invocation Failures (Schema + Parsing), repair prompts
+3. State Persistence & Checkpointing (event sourcing)
+4. Context Packing & Token Optimization
+5. RAG Retrieval Failure Modes
+6. Async Orchestration & Workflow Control (Async frameworks (asyncio, futures), DAG execution engines (LangGraph-style), Retry strategies:exponential backoff, circuit breakers, Task queues (Celery, Kafka))
+7. Evaluation (Evals) Complexity
+8. Latency Explosion (Cache embeddings)
+9. Secure Code Execution (Sandboxing)
+10. Observability & Debugging
+
+
+
+
