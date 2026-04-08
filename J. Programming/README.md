@@ -256,6 +256,5 @@
 198. Blue-Green Deployment (reliability) – deploy new versions without downtime
 199. Canary Releases (testing production) – gradually roll out changes to limited users
 200. Scalability Patterns (large systems) – design systems to handle increasing load efficiently
-<img width="81" height="6121" alt="image" src="https://github.com/user-attachments/assets/80293261-8c09-487c-ba20-c6593f702ee9" />
 
 
