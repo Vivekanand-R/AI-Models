@@ -138,6 +138,10 @@
 94. Random Module (simulation) – generate pseudo-random numbers for modeling and testing
 95. Secrets Module (security) – generate cryptographically secure random values
 96. Hashing (security, caching) – convert data into fixed-size hash values for integrity
+
+<img width="1071" height="506" alt="image" src="https://github.com/user-attachments/assets/c1a10489-7410-4405-a3ec-3aff8d66c88c" />
+
+
 97. Cryptography Basics (secure systems) – encrypt and decrypt sensitive data securely
 98. UUIDs (distributed systems) – generate unique identifiers across distributed environments
 99. Base64 Encoding (APIs) – encode binary data into text-safe representation
@@ -180,6 +184,10 @@
 127. Distributed Tracing (debugging) – follow request flow across multiple microservices
 128. Message Queues (async systems) – decouple services using asynchronous message passing
 129. Pub/Sub Systems (event streaming) – broadcast messages to multiple subscribers asynchronously
+
+<img width="1381" height="585" alt="image" src="https://github.com/user-attachments/assets/d4b809fb-fce0-4480-8252-8b98ae10d487" />
+
+
 130. Data Pipelines (AI systems) – process and transform large datasets through staged workflows
 
 
@@ -203,6 +211,9 @@
 144. Prompt Engineering (LLM apps) – design prompts to guide model outputs effectively
 145. RAG (Retrieval Augmented Generation) – combine retrieval with generation for better accuracy
 146. Tool Calling (AAI agents) – enable models to call external tools or APIs
+
+<img width="1191" height="408" alt="image" src="https://github.com/user-attachments/assets/e16058dd-ff68-4a66-a9b9-b7639018c2f3" />
+
 147. Agentic Workflows (AAI) – autonomous agents performing multi-step reasoning and actions
 148. Orchestration (AI systems) – coordinate multiple components or services into workflows
 149. Memory in Agents (AAI) – store and retrieve past interactions for context-aware reasoning
