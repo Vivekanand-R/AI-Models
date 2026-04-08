@@ -69,6 +69,10 @@
 44. Msgpack (high-performance APIs) – compact binary serialization faster than JSON for large data
 45. YAML Parsing (config systems) – parse human-readable configuration files into structured Python objects
 46. Logging System (monitoring, AAI) – structured logging with levels, handlers, and formatters for debugging
+
+<img width="1017" height="362" alt="image" src="https://github.com/user-attachments/assets/5fa23850-ee35-4359-b6e5-042e061a17df" />
+
+
 47. Exception Chaining (debugging) – preserve original traceback while raising new exceptions for clarity
 48. Custom Exceptions (frameworks) – define domain-specific error classes for better error handling
 49. Retry Patterns (resilient systems) – automatically retry failed operations with backoff strategies
@@ -261,6 +265,10 @@
 191. Deployment (production systems) – move applications from development to live environments
 192. Containerization (Docker) (scaling) – package apps with dependencies into portable containers
 193. Orchestration (Kubernetes) – manage container deployment, scaling, and networking automatically
+
+<img width="832" height="602" alt="image" src="https://github.com/user-attachments/assets/d459636f-917b-4604-852d-68fef346c409" />
+
+
 194. Serverless Computing (cloud apps) – run code without managing servers dynamically
 195. Infrastructure as Code (DevOps) – define infrastructure using code for automation
 196. Monitoring Systems (production) – track system performance and uptime continuously
