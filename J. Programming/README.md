@@ -81,63 +81,66 @@
 
 
 51. Caching Strategies (LLM, APIs) – store computed results to avoid repeated expensive computations
-52. LRU Cache (functools) (performance) – automatically evict least recently used cached items
-53. Memoization (dynamic programming) – cache function results based on input arguments
-54. Lazy Evaluation (big data, LLM) – delay computation until result is explicitly required
-55. Functional Programming (data pipelines) – use pure functions and immutability for predictable behavior
-56. Lambda Functions (short logic) – define anonymous inline functions for quick operations
-57. Map/Filter/Reduce (data processing) – apply transformations across iterables efficiently and declaratively
-58. Partial Functions (functools) (APIs) – pre-fill arguments to create specialized reusable functions
-59. Currying (functional systems) – transform multi-argument functions into sequence of single-argument calls
-60. Immutable Data Structures (concurrency) – prevent side effects by avoiding in-place modifications
+
+<img width="1057" height="562" alt="image" src="https://github.com/user-attachments/assets/42a1cb53-bf59-4901-8b79-33140f97e01b" />
+
+54. LRU Cache (functools) (performance) – automatically evict least recently used cached items
+55. Memoization (dynamic programming) – cache function results based on input arguments
+56. Lazy Evaluation (big data, LLM) – delay computation until result is explicitly required
+57. Functional Programming (data pipelines) – use pure functions and immutability for predictable behavior
+58. Lambda Functions (short logic) – define anonymous inline functions for quick operations
+59. Map/Filter/Reduce (data processing) – apply transformations across iterables efficiently and declaratively
+60. Partial Functions (functools) (APIs) – pre-fill arguments to create specialized reusable functions
+61. Currying (functional systems) – transform multi-argument functions into sequence of single-argument calls
+62. Immutable Data Structures (concurrency) – prevent side effects by avoiding in-place modifications
 
 
 
-61. Thread Safety (concurrent systems) – ensure shared data consistency across multiple executing threads
-62. Locks & RLocks (threading) – synchronize access to shared resources preventing race conditions
-63. Semaphores (resource control) – limit number of threads accessing shared resources simultaneously
-64. Deadlocks (debugging concurrency) – situation where threads wait indefinitely blocking each other
-65. Race Conditions (parallel systems) – unpredictable results due to unsynchronized shared data access
-66. Async Tasks (asyncio tasks) (AAI) – schedule concurrent coroutines managed by event loop
-67. Futures & Promises (async frameworks) – represent eventual result of asynchronous computation
-68. Executors (thread/process pools) – manage pools of threads or processes for task execution
-69. Backpressure (stream systems) – control data flow to prevent overload in pipelines
-70. Rate Limiting (APIs, LLM) – restrict frequency of requests to avoid system overload
+63. Thread Safety (concurrent systems) – ensure shared data consistency across multiple executing threads
+64. Locks & RLocks (threading) – synchronize access to shared resources preventing race conditions
+65. Semaphores (resource control) – limit number of threads accessing shared resources simultaneously
+66. Deadlocks (debugging concurrency) – situation where threads wait indefinitely blocking each other
+67. Race Conditions (parallel systems) – unpredictable results due to unsynchronized shared data access
+68. Async Tasks (asyncio tasks) (AAI) – schedule concurrent coroutines managed by event loop
+69. Futures & Promises (async frameworks) – represent eventual result of asynchronous computation
+70. Executors (thread/process pools) – manage pools of threads or processes for task execution
+71. Backpressure (stream systems) – control data flow to prevent overload in pipelines
+72. Rate Limiting (APIs, LLM) – restrict frequency of requests to avoid system overload
 
 
 
-71. Streaming Data Processing (LLM pipelines) – process continuous data chunks instead of full dataset
-72. Itertools (efficient loops) – advanced iterator building blocks for memory-efficient data processing
-73. Heap Queue (heapq) (algorithms) – implement priority queues for efficient smallest/largest element retrieval
-74. Bisect Module (sorted data) – maintain sorted lists with efficient insertion operations
-75. Collections Module (data structures) – specialized containers like deque, Counter, defaultdict
-76. Deque (queue systems) – double-ended queue supporting fast append and pop operations
-77. Counter (analytics) – count hashable objects efficiently for frequency analysis
-78. DefaultDict (clean code) – dictionary with automatic default values for missing keys
-79. OrderedDict (caching, LRU) – dictionary preserving insertion order for predictable iteration
-80. ChainMap (config systems) – combine multiple dictionaries into single logical view
+73. Streaming Data Processing (LLM pipelines) – process continuous data chunks instead of full dataset
+74. Itertools (efficient loops) – advanced iterator building blocks for memory-efficient data processing
+75. Heap Queue (heapq) (algorithms) – implement priority queues for efficient smallest/largest element retrieval
+76. Bisect Module (sorted data) – maintain sorted lists with efficient insertion operations
+77. Collections Module (data structures) – specialized containers like deque, Counter, defaultdict
+78. Deque (queue systems) – double-ended queue supporting fast append and pop operations
+79. Counter (analytics) – count hashable objects efficiently for frequency analysis
+80. DefaultDict (clean code) – dictionary with automatic default values for missing keys
+81. OrderedDict (caching, LRU) – dictionary preserving insertion order for predictable iteration
+82. ChainMap (config systems) – combine multiple dictionaries into single logical view
 
 
 
-81. Regular Expressions (text processing, NLP) – pattern matching for extracting and validating textual data
-82. String Interning (performance) – reuse identical immutable strings to optimize memory usage
-83. Unicode Handling (global apps) – correctly process multilingual text and character encodings
-84. Encoding/Decoding (I/O systems) – convert between byte streams and text representations
-85. File I/O (data pipelines) – read and write files efficiently with buffering strategies
-86. Memory Mapping (mmap) (big data) – map files into memory for fast random access
-87. Buffered I/O (performance) – reduce disk operations using in-memory buffering techniques
-88. Temporary Files (secure systems) – create short-lived files safely for intermediate processing
-89. Pathlib (filesystem handling) – object-oriented filesystem path manipulation and operations
-90. OS Module (system programming) – interact with operating system for file and process management
+83. Regular Expressions (text processing, NLP) – pattern matching for extracting and validating textual data
+84. String Interning (performance) – reuse identical immutable strings to optimize memory usage
+85. Unicode Handling (global apps) – correctly process multilingual text and character encodings
+86. Encoding/Decoding (I/O systems) – convert between byte streams and text representations
+87. File I/O (data pipelines) – read and write files efficiently with buffering strategies
+88. Memory Mapping (mmap) (big data) – map files into memory for fast random access
+89. Buffered I/O (performance) – reduce disk operations using in-memory buffering techniques
+90. Temporary Files (secure systems) – create short-lived files safely for intermediate processing
+91. Pathlib (filesystem handling) – object-oriented filesystem path manipulation and operations
+92. OS Module (system programming) – interact with operating system for file and process management
 
 
 
-91. Time & Datetime (logging, analytics) – manage timestamps, timezones, and time-based computations
-92. Timezone Handling (distributed systems) – correctly manage time differences across regions
-93. Scheduling (cron-like systems) – execute tasks at specific times or intervals
-94. Random Module (simulation) – generate pseudo-random numbers for modeling and testing
-95. Secrets Module (security) – generate cryptographically secure random values
-96. Hashing (security, caching) – convert data into fixed-size hash values for integrity
+93. Time & Datetime (logging, analytics) – manage timestamps, timezones, and time-based computations
+94. Timezone Handling (distributed systems) – correctly manage time differences across regions
+95. Scheduling (cron-like systems) – execute tasks at specific times or intervals
+96. Random Module (simulation) – generate pseudo-random numbers for modeling and testing
+97. Secrets Module (security) – generate cryptographically secure random values
+98. Hashing (security, caching) – convert data into fixed-size hash values for integrity
 
 <img width="1071" height="506" alt="image" src="https://github.com/user-attachments/assets/c1a10489-7410-4405-a3ec-3aff8d66c88c" />
 
