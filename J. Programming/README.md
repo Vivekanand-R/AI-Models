@@ -5,8 +5,16 @@
 2. Decorators (LLM pipelines, logging) – wrap functions to extend behavior without modifying original implementation
 3. Closures (functional design, AAI) – functions capturing variables from enclosing scope for persistent state
 4. Generators (streaming, LLM output) – yield values lazily, reducing memory usage in large data processing
+
+<img width="1076" height="431" alt="image" src="https://github.com/user-attachments/assets/827f1967-b5c2-4520-8e4f-059f9a955d7b" />
+
+
 5. Coroutines (async systems, AAI) – functions that pause and resume execution cooperatively using await
 6. Async/Await (APIs, AAI agents) – syntax enabling asynchronous, non-blocking concurrent execution of tasks
+
+<img width="808" height="306" alt="image" src="https://github.com/user-attachments/assets/038b0d50-7016-4cea-bb92-1f8574e14bca" />
+
+
 7. Event Loop (async frameworks, AAI) – central scheduler managing execution of asynchronous tasks and callbacks
 8. Context Managers (resource handling, pipelines) – ensure setup and cleanup of resources using with statement
 9. Descriptors (ORMs, validation) – customize attribute access logic via getter, setter, and deleter methods
@@ -33,6 +41,10 @@
 24. GIL (threading limits) – ensures only one thread executes Python bytecode at a time
 25. Threading (I/O systems) – run multiple threads concurrently for I/O-bound operations efficiently
 26. Multiprocessing (AI workloads) – spawn separate processes to achieve true parallel CPU execution
+
+<img width="787" height="566" alt="image" src="https://github.com/user-attachments/assets/f7d3443b-784e-42a4-8c9f-17cd20591da1" />
+
+
 27. Shared Memory (high-performance systems) – enable fast data sharing between processes without copying overhead
 28. Subprocess Module (system automation) – execute and control external programs or shell commands
 29. Signal Handling (system-level apps) – respond to OS signals like interrupts or termination requests
