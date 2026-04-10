@@ -1,4 +1,4 @@
-**Life Science - Three Generative AI Applications**
+## Three Generative AI - Life Science Applications
 
 
 **1. AI-Driven Protein Structure & Function Generation**
