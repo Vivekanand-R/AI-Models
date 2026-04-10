@@ -29,7 +29,28 @@ P(sequence∣desired function/structure).
 - Applications include de novo enzyme catalysis, antibody design, and protein-protein interaction engineering.
 
 
-**2. Generative Genomics (DNA Sequence Design)**
+**2. Synthetic Medical Imaging Generation**
+- This involves learning the high-dimensional distribution 
+𝑃
+(
+image
+∣
+modality
+,
+condition
+)
+P(image∣modality,condition) for modalities like MRI, CT, PET, or histopathology.
+- Generative Adversarial Networks (GANs) and diffusion models are commonly used for high-fidelity image synthesis.
+- Conditional GANs (cGANs) enable generation based on labels such as disease class, anatomy, or imaging protocol.
+- Diffusion models provide superior mode coverage and stability by modeling a Markov chain of noise addition and removal.
+- Spatial coherence and anatomical correctness are enforced using segmentation-guided or structure-aware losses.
+- Multi-modal translation (e.g., MRI → CT) is achieved using cycle-consistent architectures (CycleGAN variants).
+- Synthetic data is used to mitigate class imbalance and augment limited datasets, especially for rare pathologies.
+- Evaluation metrics include Fréchet Inception Distance (FID), Structural Similarity Index (SSIM), and clinical realism assessments.
+- Privacy-preserving data generation is a key advantage, reducing reliance on sensitive patient data.
+- Applications include training diagnostic models, radiology simulation, and domain adaptation across imaging devices.
+
+**3. Generative Genomics (DNA Sequence Design)**
 
 - Generative genomics models learn the distribution of genomic sequences 
 𝑃
@@ -53,31 +74,5 @@ P(expression∣sequence).
 - Objective functions may include motif enrichment, GC-content constraints, and regulatory grammar preservation.
 - Evaluation uses metrics like sequence conservation, predicted expression (via models like CNN-based predictors), and experimental validation (MPRA assays).
 - Applications:- synthetic promoter design, gene therapy vector optimization, and genome-scale engineering.
-
-
-**3. Synthetic Medical Imaging Generation**
-- This involves learning the high-dimensional distribution 
-𝑃
-(
-image
-∣
-modality
-,
-condition
-)
-P(image∣modality,condition) for modalities like MRI, CT, PET, or histopathology.
-- Generative Adversarial Networks (GANs) and diffusion models are commonly used for high-fidelity image synthesis.
-- Conditional GANs (cGANs) enable generation based on labels such as disease class, anatomy, or imaging protocol.
-- Diffusion models provide superior mode coverage and stability by modeling a Markov chain of noise addition and removal.
-- Spatial coherence and anatomical correctness are enforced using segmentation-guided or structure-aware losses.
-- Multi-modal translation (e.g., MRI → CT) is achieved using cycle-consistent architectures (CycleGAN variants).
-- Synthetic data is used to mitigate class imbalance and augment limited datasets, especially for rare pathologies.
-- Evaluation metrics include Fréchet Inception Distance (FID), Structural Similarity Index (SSIM), and clinical realism assessments.
-- Privacy-preserving data generation is a key advantage, reducing reliance on sensitive patient data.
-- Applications include training diagnostic models, radiology simulation, and domain adaptation across imaging devices.
-
- <img width="997" height="566" alt="image" src="https://github.com/user-attachments/assets/3837f554-5f1b-43a2-9568-b3396054378a" />
-
-
 
 
