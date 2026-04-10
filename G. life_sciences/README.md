@@ -76,7 +76,8 @@ P(image∣modality,condition) for modalities like MRI, CT, PET, or histopatholog
 - Privacy-preserving data generation is a key advantage, reducing reliance on sensitive patient data.
 - Applications include training diagnostic models, radiology simulation, and domain adaptation across imaging devices.
 
- 
+ <img width="997" height="566" alt="image" src="https://github.com/user-attachments/assets/3837f554-5f1b-43a2-9568-b3396054378a" />
+
 
 
 
